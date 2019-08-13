@@ -1,0 +1,18 @@
+<?php 	include('includes/header.php'); ?>
+
+<main id="404" class="d-flex align-items-center justify-content-center">
+	
+	<!-- Header -->
+	<section id="error404">
+		<div class="container text-center">
+
+			<h1>Oops!</h1>
+			<p class="lead mb-3 mb-md-5 mb-lg-5">Page not found</p>
+			<a href="./" class="btn">Back to index</a>
+			
+		</div>		
+	</section>
+	
+</main>
+
+<?php include('includes/footer.php');?>
