@@ -311,6 +311,11 @@ span.bump-link:hover {
 /* Services */
 .service { padding: 10vh 0; }
 
+.pricing-box {
+	padding: 5%;
+	margin-bottom: 1em;
+}
+
 /* Legal */
 .legal { font-size: 0.85em; }
 

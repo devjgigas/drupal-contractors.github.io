@@ -45,9 +45,9 @@
       <div class="fixed-top main-menu">
 		    <div class="flex-center p-5">
 		      <ul class="nav flex-column text-center">
-		        <li class="nav-item delay-1"><a class="nav-link animsition-link" href="index.php">Pricing</a></li>
-		        <li class="nav-item delay-2"><a class="nav-link animsition-link" href="about.php">Talent Network</a></li>
-		        <li class="nav-item delay-3"><a class="nav-link animsition-link" href="services.php">About</a></li>
+		        <li class="nav-item delay-1"><a class="nav-link animsition-link" href="pricing.php">Pricing</a></li>
+		        <li class="nav-item delay-2"><a class="nav-link animsition-link" href="https://drupalcontractors.com/register" target="_blank">Talent Network</a></li>
+		        <li class="nav-item delay-3"><a class="nav-link animsition-link" href="about.php">About</a></li>
 		        <li class="nav-item delay-4"><a class="nav-link animsition-link" href="contact.php">Contact</a></li>
 		      </ul>
 		    </div>	    
