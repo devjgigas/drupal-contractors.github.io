@@ -147,6 +147,9 @@ h3.home {
 	background-image: url("../img/misc/callout_2.png");
 	background-repeat: no-repeat;
 	margin-bottom: 15px;
+	padding-bottom: 20px;
+	max-width: 400px;
+	width: auto;
 	display: flex;
 	height: auto;
 }
@@ -310,7 +313,6 @@ span.bump-link:hover {
 
 /* Services */
 .service { padding: 10vh 0; }
-
 .pricing-box {
 	padding: 5%;
 	margin-bottom: 1em;

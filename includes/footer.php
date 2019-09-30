@@ -8,7 +8,6 @@
 					<div class="col-md-8">
 						<ul class="list-inline pt-1">
 							<li class="list-inline-item"><a href="legal.php" class="animsition-link">Privacy policy</a></li>
-							<li class="list-inline-item"><a href="legal.php" class="animsition-link">Cookies policy</a></li>
 							<li class="list-inline-item">&copy; <?php echo date("Y"); ?> Drupal Contractors Inc.</li>
 						</ul>
 					</div>
