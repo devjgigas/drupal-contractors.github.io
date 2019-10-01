@@ -52,7 +52,7 @@
       <a role="button" class="nav-button ml-auto"><span id="nav-icon"><span></span><span></span><span></span><span></span></span></a>      
       <div class="fixed-top main-menu">
 		    <div class="flex-center p-5">
-		      <ul class="nav flex-column text-center">
+		      <ul class="nav flex-column">
 		        <li class="nav-item delay-1"><a class="nav-link animsition-link" href="pricing.php">Pricing</a></li>
 		        <li class="nav-item delay-2"><a class="nav-link animsition-link" href="https://drupalcontractors.com/register" target="_blank">Talent Network</a></li>
 		        <li class="nav-item delay-3"><a class="nav-link animsition-link" href="about.php">About</a></li>
