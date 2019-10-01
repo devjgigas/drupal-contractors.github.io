@@ -67,7 +67,7 @@
 	
 	/* Navigation */
 	.navbar { top: 0; padding: 5px 15px; }
-	.navbar-brand svg { height: 17px; width: auto; }
+	.navbar-brand svg { height: 44px; width: auto; }
 	.nav-button { height: 18px; padding: 0; }
 	.nav-open #description,
 	.nav-open #social,

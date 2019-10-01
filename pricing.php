@@ -50,8 +50,8 @@
 			<div class="row">
 				<div class="col-lg-8 mx-auto text-center pt-5">
 					<hr class="hr-mini" />
-					<p class="lead">Nullam vel sodales massa. Donec gravida nisi at eros imperdiet volutpat. Phasellus nec ultricies tortor. Nunc blandit tristique sapien aliquam gravida. Aliquam erat volutpat.</p>
-					<p>– Eddard Stark</p>
+					<p class="lead">Our mission is to provide employers quality Drupal resources within a flexible framework that works for their business.</p>
+					<p>– Chris McGrath, Founder and CEO</p>
 				</div>
 			</div>
 		</div>

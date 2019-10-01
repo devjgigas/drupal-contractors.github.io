@@ -25,6 +25,18 @@
 		</div>
 	</section>
 	
+		<!-- Footer -->
+	<section id="footer" class="section" data-anchor="footer">
+		<div class="container d-flex align-items-center justify-content-center">
+			<div class="row">
+				<div class="col-lg-12 mx-auto text-center">
+					<h2>Have a large project?</h2>
+					<p class="lead mb-5">We rapidly scale quality teams for agencies and large employers.</p>
+					<a href="contact.php" class="btn btn-lg animsition-link"><img src="img/icons/arrow-btn.svg" class="svg"> Get in touch</a>
+				</div>
+			</div>
+		</div>
+	</section>
 </main>
 
 <?php include('includes/footer.php');?>

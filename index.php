@@ -19,7 +19,7 @@
 				<div class="col-md-12 mx-auto">
 					<div class="d-flex flex-wrap justify-content-center">
 						<div class="p2"><button type="button" class="btn-dc-primary btn-lg">Hire Drupal Talent</button></div>
-						<div class="p2"><button type="button" class="btn-dc-secondary btn-lg">Join Talent Network</button></div>
+						<div class="p2"><button type="button" class="btn-dc-secondary btn-lg"><a href="https://drupalcontractors.com/contractors/register" target="_blank">Join Talent Network</a></button></div>
 					</div>
 				</div>
 			</div>
