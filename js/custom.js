@@ -1,7 +1,7 @@
-$(document).ready(function() {
-	
-	// PAGE TRANSITIONS
-	$(".animsition").animsition({
+$(document).ready(function () {
+
+  // PAGE TRANSITIONS
+  $(".animsition").animsition({
     inClass: 'zoom-in-sm',
     outClass: 'fade-out',
     inDuration: 900,
@@ -14,99 +14,120 @@ $(document).ready(function() {
     timeout: true,
     timeoutCountdown: 1000,
     onLoadEvent: false,
-    overlay : false,
-    overlayClass : 'animsition-overlay-slide',
-    overlayParentElement : 'body',
-    transition: function(url){ window.location.href = url; }
+    overlay: false,
+    overlayClass: 'animsition-overlay-slide',
+    overlayParentElement: 'body',
+    transition: function (url) {
+      window.location.href = url;
+    }
   });
-  
-  
+
+
   // FULLPAGE
-	$('#main').fullpage({
-		lockAnchors: true,
-		scrollingSpeed: 999,
-		responsiveWidth: 769,
-		menu: '.main-menu',
-		easingcss3: 'cubic-bezier(0.68, -0.15, 0.265, 1)'
-	});
-	
-	
-	// TEXT ROTATION - ANIMATED HEADLINE
-  $('#rotate1').rotaterator({fadeSpeed:900, pauseSpeed:4000});
-  $('#rotate2').rotaterator({fadeSpeed:900, pauseSpeed:3000});
-	
-	
-	// OWL CAROUSEL
-	$('.owl-portfolio').owlCarousel({
-    loop:false,
-    margin:0,
-    items:1,
-    dots:true,
-    animateOut:'fadeOut'
-	});
-	
+  $('#main').fullpage({
+    lockAnchors: true,
+    scrollingSpeed: 999,
+    responsiveWidth: 769,
+    menu: '.main-menu',
+    easingcss3: 'cubic-bezier(0.68, -0.15, 0.265, 1)'
+  });
+
+
+  // TEXT ROTATION - ANIMATED HEADLINE
+  $('#rotate1').rotaterator({
+    fadeSpeed: 900,
+    pauseSpeed: 4000
+  });
+  $('#rotate2').rotaterator({
+    fadeSpeed: 900,
+    pauseSpeed: 3000
+  });
+
+
+  // OWL CAROUSEL
+  $('.owl-portfolio').owlCarousel({
+    loop: false,
+    margin: 0,
+    items: 1,
+    dots: true,
+    animateOut: 'fadeOut'
+  });
+
   $("#quotes").owlCarousel({
-	  items:1,
-    navigation:false,
-    loop:true,
-    autoplay:true,
-    autoplayTimeout:9000,
-    autoplayHoverPause:true,
-    autoHeight:true
-	});
-	
-	 $("#quotes-resources").owlCarousel({
-	  items:1,
-    navigation:false,
-    loop:true,
-    autoplay:true,
-    autoplayTimeout:9000,
-    autoplayHoverPause:true,
-    autoHeight:true
-	});
-	
-	// SVG as IMG
-  jQuery('img.svg').each(function(){
+    items: 1,
+    navigation: false,
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 9000,
+    autoplayHoverPause: true,
+    autoHeight: true
+  });
+
+  $("#quotes-resources").owlCarousel({
+    items: 1,
+    navigation: false,
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 9000,
+    autoplayHoverPause: true,
+    autoHeight: true
+  });
+
+  // SVG as IMG
+  jQuery('img.svg').each(function () {
     var $img = jQuery(this);
     var imgID = $img.attr('id');
     var imgClass = $img.attr('class');
     var imgURL = $img.attr('src');
-    jQuery.get(imgURL, function(data) {
+    jQuery.get(imgURL, function (data) {
       var $svg = jQuery(data).find('svg');
-      if(typeof imgID !== 'undefined') { $svg = $svg.attr('id', imgID); }
-      if(typeof imgClass !== 'undefined') { $svg = $svg.attr('class', imgClass+' replaced-svg'); }
+      if (typeof imgID !== 'undefined') {
+        $svg = $svg.attr('id', imgID);
+      }
+      if (typeof imgClass !== 'undefined') {
+        $svg = $svg.attr('class', imgClass + ' replaced-svg');
+      }
       $svg = $svg.removeAttr('xmlns:a');
       $img.replaceWith($svg);
     }, 'xml');
   });
-  
-  
+
+
   // MENU FULLSCREEN
-  $('.nav-button').click(function(){
-		$('body').toggleClass('nav-open');
+  $('.nav-button').click(function () {
+    $('body').toggleClass('nav-open');
   });
-	
-	
-	// CUSTOM CURSOR
-	var cursor = $(".cursor");
-	var posX = 0, posY = 0;
-	$(document).mousemove(function(e) {
-		$('.cursor').eq(0).css({
-			left: e.pageX,
-			top: e.pageY
-		});
-	});
-	$(document).on("mousemove", function(e) {
-		mouseX = e.pageX;
-		mouseY = e.pageY;
-	});	
-	$("a,button,label").on("mouseenter", function() { cursor.addClass("active"); });
-	$("a,button,label").on("mouseleave", function() { cursor.removeClass("active"); });
-	$("input,select,textarea,.card-brand").on("mouseenter", function() { cursor.addClass("hovered"); });
-	$("input,select,textarea,.card-brand").on("mouseleave", function() { cursor.removeClass("hovered"); });
-	
-	
-	// AUTOSIZE TEXTAREA
-	autosize(document.getElementById('message'));
-	
+
+
+  // CUSTOM CURSOR
+  var cursor = $(".cursor");
+  var posX = 0,
+    posY = 0;
+  $(document).mousemove(function (e) {
+    $('.cursor').eq(0).css({
+      left: e.pageX,
+      top: e.pageY
+    });
+  });
+  $(document).on("mousemove", function (e) {
+    mouseX = e.pageX;
+    mouseY = e.pageY;
+  });
+  $("a,button,label").on("mouseenter", function () {
+    cursor.addClass("active");
+  });
+  $("a,button,label").on("mouseleave", function () {
+    cursor.removeClass("active");
+  });
+  $("input,select,textarea,.card-brand").on("mouseenter", function () {
+    cursor.addClass("hovered");
+  });
+  $("input,select,textarea,.card-brand").on("mouseleave", function () {
+    cursor.removeClass("hovered");
+  });
+
+
+  // AUTOSIZE TEXTAREA
+  autosize(document.getElementById('message'));
+
 });
