@@ -5,7 +5,7 @@ description: >-
   Google search results) and in your feed.xml site description.
 url: ""
 signup_url: "https://app.drupalcontractors.com/contractors/register"
-support_email: "services@drupalcontractors.com"
+support_email: "service@drupalcontractors.com"
 
 # Build settings
 markdown: kramdown
