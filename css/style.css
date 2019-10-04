@@ -51,7 +51,7 @@ hr.hr-mini { width: 30px; border-width: 3px; border-color: #aaa; }
 
 /* ---------- NAVIGATION ---------- */
 /* Navbar */
-.navbar { background: #fff; height: auto; padding-top: 0; padding-bottom: 0; top: 30px; animation: fade-down 1s; }
+.navbar { height: auto; padding-top: 0; padding-bottom: 0; top: 30px; animation: fade-down 1s; }
 .navbar-toggler { padding: 0; }
 .navbar-brand { z-index:1111; }
 
