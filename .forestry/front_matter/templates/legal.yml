@@ -21,3 +21,5 @@ fields:
   - type: textarea
     name: body
     label: body
+pages:
+- legal.html
