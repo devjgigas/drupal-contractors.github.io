@@ -1,0 +1,23 @@
+---
+label: Legal
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: permalink
+  label: permalink
+- type: text
+  name: heading
+  label: heading
+- type: field_group_list
+  name: sections
+  label: sections
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: body
+    label: body
