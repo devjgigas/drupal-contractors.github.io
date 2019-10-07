@@ -1,0 +1,18 @@
+<div id="{{ include.id }}">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10 mx-auto text-center">
+				<div id="quotes" class="owl-carousel owl-theme">
+					{% for person in include.testimonials %}
+					<blockquote class="item">
+						<img class="headshot rounded-circle mx-auto" src="{{ person.image }}" alt="{{ person.name }} headshot" />
+						<cite>{{ person.testimony }}</cite>
+						<hr class="hr-mini">
+						<p><strong>{{ person.name }}</strong>, {{ person.title }}</p>
+					</blockquote>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
