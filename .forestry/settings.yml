@@ -7,6 +7,21 @@ sections:
 - type: document
   path: index.html
   label: Home
+- type: document
+  path: about.html
+  label: About
+  match: "**/*"
+- type: document
+  path: pricing.html
+  label: Pricing
+  match: "**/*"
+- type: document
+  path: legal.html
+  label: Legal
+  match: "**/*"
+- type: document
+  path: contact.html
+  label: Contact
   match: "**/*"
 upload_dir: uploads
 public_path: "/img"
