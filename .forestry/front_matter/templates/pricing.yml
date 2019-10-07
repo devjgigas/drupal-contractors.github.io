@@ -31,5 +31,3 @@ fields:
   - type: text
     name: author
     label: author
-pages:
-- pricing.html

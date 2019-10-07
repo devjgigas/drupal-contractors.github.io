@@ -37,5 +37,3 @@ fields:
   - type: text
     name: testimony
     label: testimony
-pages:
-- index.html
