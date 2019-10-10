@@ -30,26 +30,26 @@ testimonials:
 
 ---
 <main id="inner">
-	<section id="about">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-9 col-lg-11 col-xl-9">
-					<h1>{{ page.heading }}</h1>
-				</div>
-			</div>
-			{% if page.bios %}
-			<div class="row pb-5">
-				{% for bio in page.bios %}
-				<div class="col-lg-6">
-					{{ bio }}
-				</div>
-				{% endfor %}
-			</div>
-			{% endif %}
-			{% if page.testimonials %}
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 col-lg-11 col-xl-9">
+          <h1>{{ page.heading }}</h1>
+        </div>
+      </div>
+      {% if page.bios %}
+      <div class="row pb-5">
+        {% for bio in page.bios %}
+        <div class="col-lg-6">
+          {{ bio }}
+        </div>
+        {% endfor %}
+      </div>
+      {% endif %}
+      {% if page.testimonials %}
         {% include testimonials.html testimonials=page.testimonials id="testimonials" %}
-			{% endif %}
-		</div>
-	</section>
-	{% include footer_project.html %}
+      {% endif %}
+    </div>
+  </section>
+  {% include footer_project.html %}
 </main>
