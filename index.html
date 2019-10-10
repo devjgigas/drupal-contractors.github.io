@@ -157,8 +157,7 @@ resource_testimonials:
               <h4 class="home">Scale on-demand with talent pre-screened by Drupal community experts.</h4>
               <div class="col-md-12 text-center">
                 {% if page.client_testimonials %}
-                {% assign test="test" %}
-                {% include testimonials.html testimonials=page.client_testimonials id="testimonials" %}
+                {% include testimonials.html testimonials=page.client_testimonials id="" %}
                 {% endif %}
               </div>
             </div>
@@ -166,8 +165,7 @@ resource_testimonials:
               <h4 class="home">Connect with top Drupal employers, mentors and teammates.</h4>
               <div class="col-md-12 text-center">
                 {% if page.client_testimonials %}
-                {% assign test="test" %}
-                {% include testimonials.html testimonials=page.resource_testimonials id="testimonials-resources" %}
+                {% include testimonials.html testimonials=page.resource_testimonials id="-resources" %}
                 {% endif %}
               </div>
             </div>
