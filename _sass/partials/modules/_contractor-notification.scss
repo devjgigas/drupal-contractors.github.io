@@ -1,0 +1,48 @@
+/**
+ * @file
+ * Contractor notification
+ *
+ * Located on the pages: /user/#/notifications
+ */
+
+.page-user-notifications {
+
+  .adminNavigation {
+
+    .adminTabs {
+      max-width: 100%;
+    }
+  }
+
+  #main-wrapper {
+    background: $white;
+    padding: 3px !important;
+
+    #main {
+      border: 3px solid $grey--background;
+      padding: 20px;
+
+      .region-content {
+
+        th {
+          background: $grey--lightest;
+        }
+
+        td {
+          background: $white;
+        }
+
+        .table-striped {
+
+          ul {
+            padding: 0;
+
+            a {
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+  }
+}

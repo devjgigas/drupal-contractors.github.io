@@ -1,0 +1,30 @@
+/**
+ * @file
+ * Home page styles
+ */
+
+.sectionGrey {
+  background: $grey--lightest;
+}
+
+.sectionWhite,
+.sectionWhite .sectionGrey {
+  background: $white;
+}
+
+// How it works title pane.
+.page-homepage .pane-1 {
+  padding-top: 60px;
+
+  .pane-title {
+    margin-bottom: 15px;
+  }
+
+  .pane-content {
+    color: $newblue--lightest2;
+    font-family: $fontFamily-regular;
+    font-size: 18px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+}

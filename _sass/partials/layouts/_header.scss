@@ -1,0 +1,426 @@
+/**
+ * @file
+ * Header styles
+ *
+ * Located on the pages: All page
+ */
+
+.page-homepage {
+  .siteHeader {
+    background: transparent;
+    border-bottom: 0;
+    margin-top: 10px;
+
+    &-body {
+      &-left {
+        > .region {
+          > .block {
+            display: none;
+            @media #{$large-up} {
+              display: block;
+            }
+          }
+          .logo {
+            &--dark {
+              display: none;
+              opacity: 0;
+            }
+            &--light {
+              display: block;
+              opacity: 1;
+            }
+          }
+        }
+      }
+      &-right {
+        &-link {
+          &--scroll {
+            opacity: 0;
+            display: none;
+          }
+          &--account {
+            a {
+              color: $white;
+              &:hover {
+                color: $newblue--lightest;
+              }
+            }
+          }
+        }
+      }
+    }
+    .siteMenu > div > .menu {
+      > li {
+        > a,
+        > span {
+          color: $white;
+          font-family: $fontFamily-regular;
+          font-size: 16px;
+          padding-top: 3px;
+
+          &:hover {
+            background: transparent;
+            color: $newblue--lightest;
+          }
+
+          .user-icon #user-icon {
+            fill: $white;
+          }
+
+          .caret {
+            border-color: $white;
+          }
+
+          &:hover {
+            .caret {
+              border-color: $newblue--lightest;
+            }
+
+            .user-icon #user-icon {
+              fill: $newblue--lightest;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//style for header (white)
+.siteHeader {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 99;
+  height: 56px;
+  width: 100%;
+  background: $white;
+  border-bottom: 1px solid $grey;
+  transition: background .3s;
+  @media #{$large-up} {
+    height: 76px;
+  }
+  &-body {
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    @media #{$large-up} {
+      height: 75px;
+    }
+
+    .block-custom-search-blocks {
+      height: 34px;
+      position: relative;
+
+      form.search-form {
+        position: relative;
+        z-index: 1;
+      }
+
+      .left-arrow {
+        position: absolute;
+        width: 100%;
+
+        .button {
+          display: block;
+          height: 34px;
+          position: relative;
+          z-index: 2;
+          width: 30px;
+
+          // Search icon
+          .fa-search {
+            color: $newblue;
+            font-size: 20px;
+            left: 11px;
+            position: relative;
+            top: 8px;
+            right: 15px;
+          }
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
+
+        .options {
+          background: $white;
+          border: 1px solid $grey-darker;
+          border-top: 0;
+          display: none;
+          margin-top: -1px;
+          position: relative;
+          z-index: 2;
+
+          span {
+            display: block;
+            font-size: 16px;
+            padding: 6px 10px 11px 10px;
+            transition: 0.3s;
+
+            &.active {
+              color: $blue--darkest;
+              font-weight: bold;
+            }
+
+            &:hover {
+              background: $blue--darkest;
+              color: $white;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+
+      .form-item-custom-search-blocks-form-1 {
+        margin: 0 20px 0 0;
+
+        input {
+          font-size: 14px;
+          padding: 10px 10px 10px 40px;
+          height: 40px;
+          @media #{$xlarge-up} {
+            min-width: 340px;
+          }
+        }
+      }
+
+      .form-item-custom-search-paths {
+        display: none;
+        position: absolute;
+        width: 100%;
+      }
+    }
+
+    &-left {
+      display: flex;
+      align-items: center;
+      > .region {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        > .block {
+          display: none;
+          @media #{$large-up} {
+            display: block;
+          }
+        }
+        .logo {
+          display: block;
+          flex: 0 0 220px;
+          transition: opacity .3s;
+          @media #{$small-up} {
+            margin-right: 20px;
+          }
+          @media #{$large-up} {
+            margin-right: 60px;
+          }
+          &--light {
+            display: none;
+            opacity: 0;
+          }
+        }
+        .block-search {
+          @media #{$large-up} {
+            flex: 0 0 180px;
+            margin: 0 10px;
+          }
+          @media #{$large-up} {
+            flex: 0 0 200px;
+            margin: $newblue--lightest2;
+          }
+          @media #{$xlarge-up} {
+            flex: 0 0 270px;
+            margin: 0 25px;
+          }
+          .form-inline {
+            .form-group {
+              display: block;
+            }
+            .form-control {
+              width: 100%;
+              display: block;
+            }
+          }
+        }
+      }
+    }
+    &-right {
+      > .region {
+        display: none;
+        height: 100%;
+        align-items: center;
+        @media #{$large-up} {
+          display: flex;
+        }
+      }
+      &-link {
+        margin-left: 10px;
+        transition: opacity .3s;
+        @media #{$large-up} {
+          margin-left: 30px;
+        }
+        @media #{$xlarge-up} {
+          margin-left: 45px;
+        }
+
+        &--scroll {
+          opacity: 0;
+          display: none;
+        }
+        &--account {
+          margin: 0 10px;
+          @media #{$large-up} {
+            margin: 0 15px;
+          }
+          a {
+            font-family: $fontFamily-regular;
+            font-size: 16px;
+            line-height: 2;
+            color: $grey--darkest;
+            white-space: nowrap;
+            text-transform: uppercase;
+            transition: all .3s;
+            &:hover {
+              color: $blue--darkest;
+              text-decoration: none;
+            }
+
+            // Where are these icons from? Just hiding them from here.
+            & .mbri-login:before,
+            & .mbri-edit:before {
+              content: '';
+            }
+          }
+        }
+      }
+
+      .login_button,
+      .sign_up-button {
+      }
+
+      .btn {
+        font-size: 16px;
+        padding: $newblue--lightest2;
+      }
+    }
+  }
+
+  .hamburger {
+    display: block;
+    @media #{$large-up} {
+      display: none;
+    }
+  }
+}
+
+.siteHeader.dark,
+.dark-header .siteHeader {
+  background-color: $newblue--darkest;
+  border-bottom: none;
+
+  .siteMenu div > .menu > li > a,
+  .siteMenu div > .menu > li > span {
+    color: $grey--lightest;
+
+    &:hover {
+      color: $blue--light;
+    }
+  }
+
+  .siteMenu .user-menu {
+    .user-icon svg #user-icon {
+      fill: $grey--lightest;
+    }
+
+    &:hover {
+      .user-icon svg #user-icon {
+        fill: $blue--light;
+      }
+    }
+  }
+
+  .siteHeader-body-left {
+    > .region {
+      .logo--light {
+        display: block;
+        opacity: 1;
+      }
+      .logo--dark {
+        display: none;
+      }
+    }
+  }
+
+  .siteHeader-body-right-link--account {
+    a {
+      color: $white;
+
+      &:hover {
+        color: $blue--light;
+      }
+    }
+  }
+}
+
+
+.scrollHeader {
+  position: fixed;
+  padding: 10px 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background: $white;
+  z-index: 999;
+  transform: translateY(-100%);
+  background: #fff;
+  border-bottom: 1px solid #999;
+  transition: transform .3s, right .5s;
+  &.is-show {
+    transform: translateY(0);
+  }
+  &-body {
+    > .region {
+      display: flex;
+      height: 56px;
+      align-items: center;
+      justify-content: space-between;
+      @media #{$large-up} {
+        height: 76px;
+      }
+    }
+    &-logo {
+      img {
+        width: 220px;
+      }
+    }
+    &-btn {
+      display: none;
+      @media #{$large-up} {
+        display: block;
+        flex: 1;
+        text-align: right;
+      }
+    }
+  }
+  .hamburger {
+    color: $grey;
+    @media #{$large-up} {
+      display: none;
+    }
+  }
+}
+
+
+html body.admin-menu {
+  .scrollHeader {
+    top: 29px;
+  }
+}
+
+.logo {
+  img {
+    width: 220px;
+  }
+}

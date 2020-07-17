@@ -1,0 +1,120 @@
+$message-margin: 20px;
+
+.thread-messages-wrap .thread-inner {
+  border: 1px solid $grey--lightest;
+  padding: 0 20px;
+  width: auto;
+}
+
+#privatemsg-list-form {
+  #edit-operation {
+    display: inline-block;
+    max-width: 165px;
+  }
+
+  .container-inline {
+    margin-bottom: 20px;
+  }
+}
+
+.privatemsg {
+  &-message-participants {
+    border-bottom: 0;
+  }
+
+  &-message {
+    &.self {
+      .privatemsg-author-avatar {
+        float: right;
+      }
+
+      .privatemsg-author-name {
+        float: none;
+      }
+
+      .privatemsg-message-column {
+        float: right;
+      }
+
+      .privatemsg-message-body {
+        background: $grey--lightest;
+      }
+    }
+  }
+
+  &-author-avatar {
+    @include circle(50px);
+    border: 2px solid $grey--lightest;
+    overflow: hidden;
+    padding: 0;
+
+    img {
+      height: auto;
+      width: 50px;
+    }
+  }
+
+  &-message-column {
+    float: left;
+  }
+
+  &-message-body {
+    border: 1px solid $grey--light;
+    border-radius: 5px;
+    margin-left: $message-margin;
+    margin-right: $message-margin;
+    padding: 20px;
+    width: auto;
+  }
+
+  &-author-name {
+    font-size: 12px;
+    margin-left: $message-margin;
+  }
+
+  &-message .privatemsg-message-information {
+    border-bottom: none;
+  }
+}
+
+[id^="privatemsg-new"] {
+  width: auto;
+
+  .privatemsg-reply {
+    display: none;
+  }
+
+  .mini-chat {
+    display: none;
+    pointer-events: none;
+  }
+}
+
+.page-messages {
+  #main {
+    margin-top: 30px;
+  }
+}
+
+[class*="page-messages"] {
+  .btn-default, .btn-primary {
+    background-color: $blue--darkest;
+    border-color: $blue--darkest;
+    color: $white;
+    font-size: 12px;
+    height: 34px;
+    line-height: 26px;
+
+    &:hover {
+      background: $white;
+      color: $blue--darkest;
+    }
+  }
+}
+
+@media #{$medium-up} {
+  .thread-messages-wrap .thread-inner,
+  [id^="privatemsg-new"] {
+    width: 60%;
+  }
+}

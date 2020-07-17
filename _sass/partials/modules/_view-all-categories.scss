@@ -1,0 +1,30 @@
+/**
+ * @file
+ * View all categories styles
+ *
+ * Located on the pages: /view-all-categories
+ */
+
+.page-view-all-categories {
+  .view-skills {
+    tr {
+      @media #{$xsmall-down} {
+        display: block;
+        text-align: center;
+      }
+
+      td {
+        border: none;
+
+        @media #{$xsmall-down} {
+          display: block;
+          width: 100%;
+
+          a {
+            color: $black;
+          }
+        }
+      }
+    }
+  }
+}

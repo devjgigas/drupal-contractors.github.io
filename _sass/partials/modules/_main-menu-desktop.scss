@@ -1,0 +1,188 @@
+/**
+ * @file
+ * Main menu styles for desktop view
+ *
+ * Located on the pages: All page
+ */
+
+.siteMenu {
+  div > .menu {
+    display: flex;
+    > li {
+      > a,
+      > span {
+        display: block;
+        padding: 0 10px;
+        font-family: $fontFamily-semibold;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: $grey--darkest;
+        white-space: nowrap;
+        cursor: pointer;
+        transition: all .3s;
+        @media #{$large-up} {
+          padding: 0 15px;
+        }
+        &:hover {
+          background: transparent;
+          color: $blue--darkest;
+        }
+      }
+    }
+  }
+  .siteMenu-second {
+    position: relative;
+    > span,
+    > a {
+      > .caret {
+        margin: -8px 0 0 10px;
+        position: static;
+      }
+    }
+    &.is-open {
+      > ul {
+        opacity: 1;
+        visibility: visible;
+        overflow: visible;
+      }
+    }
+    > ul {
+      position: absolute;
+      top: 100%;
+      left: 15px;
+      width: 330px;
+      margin-left: 0 !important;
+      margin-top: 15px;
+      background: $white;
+      border: 2px solid $grey--most;
+      opacity: 0;
+      visibility: hidden;
+      overflow: hidden;
+      transition: all .3s;
+      &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: -9px;
+        left: 20px;
+        width: 15px;
+        height: 15px;
+        background: $white;
+        border-left: 2px solid $grey--most;
+        border-bottom: 2px solid $grey--most;
+        transform: rotate(135deg);
+      }
+      > li {
+        border-bottom: 1px solid $grey--most;
+        &:last-child {
+          border-bottom: 0;
+        }
+        > a,
+        > span {
+          position: relative;
+          display: block;
+          padding: 15px 35px 15px 15px;
+          font-family: $fontFamily-bold;
+          font-size: 16px;
+          color: $grey;
+          cursor: pointer;
+          transition: all .3s;
+          &:hover {
+            background: transparent;
+            color: $blue--dark;
+          }
+        }
+      }
+    }
+  }
+  .siteMenu-third {
+    &.is-open {
+      > span {
+        position: relative;
+        color: $blue--darkest;
+        &:before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: -2px;
+          width: 6px;
+          height: 100%;
+          background: $blue--darkest;
+        }
+        .caret {
+          transform: rotate(-135deg);
+          margin-top: -2px;
+        }
+      }
+    }
+    > ul {
+      display: none;
+      margin-left: 0 !important;
+      > li {
+        border-top: 1px solid $grey--most;
+        > a {
+          color: $grey;
+          cursor: pointer;
+          display: block;
+          font-family: $fontFamily-body;
+          font-size: 16px;
+          opacity: 1;
+          padding: 15px 35px 15px 15px;
+          transition: all .3s;
+
+          &:hover {
+            background: transparent;
+            color: $blue--dark;
+          }
+        }
+      }
+    }
+  }
+
+  .user-menu {
+    .user-icon svg {
+      float: right;
+      margin-left: 5px;
+
+      #user-icon {
+        fill: $grey--darkest;
+        transition: all .3s;
+      }
+    }
+
+    .siteMenu-second {
+      line-height: 34px;
+
+      > span > .caret {
+        margin-left: 0;
+        margin-right: 10px;
+      }
+
+      > span:hover {
+        .user-icon svg #user-icon {
+          fill: $blue--darkest;
+        }
+      }
+    }
+  }
+
+  .caret {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    margin-top: -5px;
+    width: 10px;
+    height: 10px;
+    border: 0;
+    border-right: 1px solid $grey;
+    border-bottom: 1px solid $grey;
+    transform: rotate(45deg);
+    transition: all .3s;
+  }
+
+  .user-menu {
+    .siteMenu-second > ul {
+      width: 200px;
+    }
+  }
+}

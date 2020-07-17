@@ -1,0 +1,517 @@
+/**
+ * @file
+ * Contractor box
+ *
+ * Located on the pages: profile-main/*
+ */
+
+#rc-imageselect,
+.g-recaptcha {
+  > div {
+    margin: 0 auto;
+  }
+}
+
+.page-profile-main,
+.page-profile-company:not(.panel-layout-dashboard_employer) {
+  background: $grey--background;
+  font-size: 18px;
+  line-height: 26px;
+
+
+  section {
+    h2 {
+      font-size: 26px;
+      margin-bottom: 1em;
+      font-family: "catamaranregular",Helvetica,Arial,sans-serif;
+      text-align: left;
+      font-weight: normal;
+    }
+  }
+  .group-portfolio {
+    h2 {
+      float: left;
+    }
+  }
+
+  @media #{$xsmall-down} {
+    .group-left-side {
+      margin-bottom: 1em;
+    }
+  }
+  @media #{$small-up} {
+    .group-left-side {
+      padding-right: 0;
+    }
+  }
+
+  .field-label {
+    font-family: $fontFamily-regular;
+  }
+  .field:not(.field-type-multifield) {
+    padding-top: .5em;
+    padding-bottom: .5em;
+  }
+  .field-type-link-field {
+    a {
+      word-break: break-word;
+    }
+  }
+
+  form[id*='profile2-edit'] {
+    .help-block {
+      white-space: normal;
+    }
+
+    select {
+      padding: 2px 12px;
+    }
+
+    .field-name-field-portfolio {
+      .table-responsive {
+        overflow-x: visible;
+      }
+
+      .field-name-field-project-skills label {
+        display: block;
+      }
+    }
+  }
+
+  #rc-imageselect,
+  .g-recaptcha {
+    @media screen and (max-width: 430px) {
+      transform:scale(0.75);
+      -webkit-transform:scale(0.75);
+      transform-origin:0 0;
+      -webkit-transform-origin:0 0;
+    }
+    @media #{$medium-up} {
+      transform:scale(0.65);
+      -webkit-transform:scale(0.65);
+      transform-origin:0 0;
+      -webkit-transform-origin:0 0;
+    }
+    @media #{$large-up} {
+      transform:scale(0.55);
+      -webkit-transform:scale(0.55);
+      transform-origin:0 0;
+      -webkit-transform-origin:0 0;
+    }
+    @media #{$xlarge-up} {
+      transform:scale(0.77);
+      -webkit-transform:scale(0.77);
+      transform-origin:0 0;
+      -webkit-transform-origin:0 0;
+    }
+  }
+
+  div.fivestar-widget-static {
+    .star {
+      span.on {
+        background: url("../images/star.jpg") no-repeat 0 -32px; 
+      }
+    }
+  }
+
+  .education-top-part {
+    font-weight: bold;
+
+     &:first-letter {
+      text-transform: uppercase;
+     }
+  }
+
+  .field-name-field-address {
+    font-weight: bold;
+    padding-left: 120px;
+    text-align: left;
+  }
+
+  .field-name-field-education,
+  .field-name-field-employment {
+
+    .field-item {
+
+      &:not(:last-child) {
+        margin-bottom: 5px;
+      }
+    }
+
+    .description-optional,
+    .description {
+
+      .education-employment-all-text,
+      .education-employment-trimmed-text {
+        display: inline;
+
+        &.hidden {
+          display: none;
+        }
+      }
+
+      .education-employment-show-button {
+        color: $blue--darkest;
+
+        &:hover {
+          cursor: pointer;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  .links.inline {
+    padding: 0;
+
+    .flag-throbber {
+      display: none;
+    }
+  }
+
+  &.admin-menu.logged-in {
+    .entity-profile2 {
+      .content {
+        padding-top: 55px;
+        position: relative;
+      }
+    }
+  }
+  .profile2-main,
+  .profile2-company,
+  .block {
+
+    .field-name-field-portfolio {
+
+      .field-items {
+
+        .field-label,
+        .field-item {
+          line-height: 26px;
+          font-size: 18px;
+        }
+      }
+
+      .field-name-field-project-overview,
+      .field-name-field-project-title,
+      .field-name-field-thumbnail-image,
+      .field-name-field-project-files {
+
+        .field-label {
+          display: none;
+        }
+      }
+
+      .field-name-field-thumbnail-image,
+      .field-name-field-project-files {
+        display: inline-block;
+      }
+
+      .field-name-field-project-title {
+        margin-top: 15px;
+
+        .field-item {
+          font-size: 20px;
+          font-weight: bold;
+        }
+      }
+    }
+
+    .group-languages {
+      > div {
+        > span {
+          display: block;
+          font-size: 20px;
+          font-weight: 900;
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    .group-drupal,
+    .group-agency {
+      > div {
+
+        > span {
+          display: block;
+          font-size: 20px;
+          font-weight: 900;
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    .group-employment-history,
+    .group-education {
+
+      .field-name-field-employment,
+      .field-name-field-education {
+
+        .field-items {
+
+          .field-item {
+
+            &:not(:last-child) {
+              margin-bottom: 30px;
+            }
+          }
+
+          .company-name,
+          .education-top-part {
+            font-size: 18px;
+            font-weight: 900;
+          }
+
+          .dates-period,
+          .description,
+          .dates-attended,
+          .description-optional {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+
+    .field-name-field-rate {
+      font-size: 18px;
+    }
+
+    .content {
+
+      > a {
+        margin-top: 10px;
+      }
+    }
+
+    h2 {
+      a {
+        color: $grey--darkest;
+      }
+    }
+    p {
+      font-size: 15px;
+      line-height: 20px;
+    }
+
+    .field-item {
+      font-family: $fontFamily-regular;
+    }
+
+    .field-name-field-profile-picture,
+    .field-name-field-company-logo {
+      float: left;
+      text-align: left;
+      img {
+        border: 2px solid $white;
+        border-radius: 100%;
+        box-shadow: 0px 0px 5px 3px $grey-darker;
+      }
+    }
+    .field-group-name {
+      font-size: 26px;
+      margin-bottom: 10px;
+      padding-left: 120px;
+      padding-top: 10px;
+      text-align: left;
+      .field-name-field-name, .field-name-field-last-name, .field-name-field-employer-first-name, .field-name-field-employer-last-name {
+        display: inline-block;
+      }
+      .field-name-field-last-name, .field-name-field-employer-last-name {
+        margin-left: 5px;
+      }
+    }
+    .field-name-field-available-to-work {
+      text-align: center;
+      .field-item {
+        display: inline-block;
+        font-size: 16px;
+        font-weight: bold;
+        &:not(:last-child) {
+          &:after{
+            content: "|";
+            display: inline-block;
+            margin-left: 5px;
+            margin-right: 5px;
+          }
+
+        }
+      }
+    }
+    .field-name-field-present-location {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 5px;
+      text-align: center;
+    }
+    .field-name-field-title {
+      clear: both;
+      text-align: left;
+
+      .field-items {
+
+        .field-item {
+          color: $grey-2;
+          display: inline-block;
+          font-size: 18px;
+          font-weight: 900;
+
+          &:not(:last-child) {
+
+            &:after {
+              content: "|";
+              display: inline-block;
+              padding-left: 5px;
+              padding-right: 5px;
+            }
+          }
+        }
+      }
+    }
+
+    .field-name-field-company-contact-email {
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .field-name-field-rating {
+      text-align: center;
+
+      .fivestar-widget {
+        display: inline-block;
+      }
+
+      div.fivestar-widget-static .star {
+        display: inline-block;
+        float: none;
+      }
+
+      .fivestar-summary-average-count {
+        font-weight: bold;
+
+        .average-rating,
+        .total-votes {
+          font-size: 13px;
+        }
+      }
+    }
+
+    .field-name-field-summary {
+      clear: both;
+      .field-items {
+
+        &, p {
+          font-size: 18px;
+          line-height: 26px;
+        }
+      }
+    }
+
+    .field-name-field-skills-and-abilities {
+      .field-items {
+        border: 3px solid $grey--background;
+        padding: 20px;
+      }
+    }
+
+    .field-name-field-skills-and-abilitie {
+      .field-label {
+        font-size: 18px;
+        margin-bottom: 5px;
+      }
+      .field-items {
+        background: $white;
+        font-family: $fontFamily-regular;
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 20px;
+
+        p {
+          margin: 0;
+          padding: 0;
+        }
+      }
+    }
+
+    .field-name-field-drupal-org-profile-links {
+      margin-top: 5px;
+      .field-label, .field-items {
+        display: inline-block
+      }
+    }
+
+    .field-name-field-language-group {
+      [class*="field-name-field-language"] {
+        display: inline-block;
+      }
+
+      .field-name-field-language {
+        .field-item:after {
+          content: "-";
+          display: inline-block;
+          margin: 0 3px;
+        }
+      }
+    }
+
+    .field-name-field-email {
+      margin-bottom: 10px;
+    }
+  }
+  .view-display-id-block_availability {
+    padding-top: 15px;
+  }
+}
+
+.page-profile-company {
+
+  .field-name-field-rating {
+    margin-bottom: 20px;
+  }
+
+  .field-name-field-employer-location {
+    margin-top: 10px;
+
+    .field-items {
+      font-family: $fontFamily-regular;
+      font-size: 15px;
+      line-height: 18px;
+      margin-top: 5px;
+    }
+  }
+
+  .field-name-field-company-website,
+  .field-name-field-linkedin-profile-link {
+
+    a {
+      font-weight: bold;
+    }
+  }
+}
+
+// Acquia certifications
+.acquia-certs {
+  display: flex;
+  flex-flow: row wrap;
+  .acquia-certs__item {
+    padding: 1em;
+  }
+  .acquia-certs__link {
+    display: block;
+  }
+  .acquia-certs__image {
+    width: 150px;
+  }
+}
+
+// Profile Portfolio
+.portfolio {
+  .portfolio__label {
+    float: left;
+  }
+  .portfolio__category-filter {
+    float: right;
+  }
+  .portfolio__items {
+    clear: both;
+  }
+}

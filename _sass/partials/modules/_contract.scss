@@ -1,0 +1,63 @@
+/**
+ * @file
+ * Contract type pages
+ *
+ * Located on the pages: Contract pages
+ */
+
+.node-type-contract,
+.node-type-work-order {
+  background: $grey--lightest;
+
+  #main {
+    margin-bottom: 30px;
+    margin-top: 60px;
+
+    #content .region-content {
+      background: $white;
+      padding: 3px;
+
+      .node-contract,
+      .node-work-order {
+        background: $white;
+        border: 3px solid $grey--background;
+        padding: 20px;
+
+        .submitted {
+          margin-bottom: 30px;
+
+          a {
+            font-weight: bold;
+            text-transform: capitalize;
+          }
+        }
+      }
+    }
+  }
+}
+
+.node-type-contract {
+  .client-esign,
+  .client-esign-name,
+  .client-esign-title,
+  .client-esign-date,
+  .esign,
+  .esign-name,
+  .esign-title,
+  .esign-date {
+    display: none;
+  }
+}
+
+.node-type-work-order {
+  .client-esign,
+  .client-esign-name,
+  .client-esign-title,
+  .client-esign-date,
+  .contractor-esign,
+  .contractor-esign-name,
+  .contractor-esign-title,
+  .contractor-esign-date {
+    display: none;
+  }
+}

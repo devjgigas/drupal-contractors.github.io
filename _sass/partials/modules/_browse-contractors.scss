@@ -1,0 +1,32 @@
+%skills-tabs {
+  background: $grey--lightest;
+  border: 1px solid $grey--lightest;
+  border-radius: 5px;
+  color: $grey--black;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+  margin-left: 2px;
+  padding: 0 5px 3px 3px;
+  transition: .3s;
+
+  &:hover {
+    background: $white;
+    border: 1px solid $grey--lightest;
+  }
+}
+
+.view {
+  .views-field-field-skills {
+    .item-list li {
+      @extend %skills-tabs;
+    }
+  }
+}
+
+[id^="edit-profile-main-field-skills"] {
+  .help-block .suggested-skill {
+    @extend %skills-tabs;
+    margin-top: 5px;
+  }
+}

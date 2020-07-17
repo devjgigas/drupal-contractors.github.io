@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+{% if dir == "contractors" %}
+{% assign profiles = site.data.profiles | where: 'titles', page.key %}
+<div class="block block-menu-block contractorsMenu block--none">
+  <div class="block__content">
+    <div class="menu-block-wrapper menu-block-6 menu-name-main-menu parent-mlid-669 menu-level-1 container">
+      <button type="button" class="contractorsMenu-btn js-contractorsMenuBtn jquery-once-1-processed">CHOOSE FROM BELOW...</button>
+      <ul class="menu nav nav-pills nav-stacked">
+        {% for title in site.data.config.titles %}
+        <li class="leaf">
+          <a href="/contractors/{{ title.key }}" title="{{ site.data.config.valueMap[title.key] }}">{{ site.data.config.valueMap[title.key] }}</a>
+        </li>
+        {% endfor %}
+        <li class="last leaf menu-mlid-3516 menu-link-see-all">
+          <a href="/contractors/">See All</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+{% else %}
+{% assign profiles = site.data.profiles | where: 'skills', page.key %}
+{% endif %}
+
+{% if profiles.size > 0 %}
+<div class="block block-views sectionGrey block--none">
+  <div class="block__content">
+    <div class="view view-contactors view-id-contactors view-display-id-block contractorsView container view-dom-id-43dff6175066f69b0e9e0c992e79d32a">
+      <div class="view-header">
+        <h1>Browse top rated talent</h1>
+      </div>
+      <div class="view-content">
+        <div class="slick slick--skin--default slick--optionset--contractors contractorsSlider" id="slick-views-contactors-1">
+          <div class="slick__slider" id="slick-views-contactors-1-slider" data-slick="{&quot;mobileFirst&quot;:true,&quot;infinite&quot;:false,&quot;useTransform&quot;:false,&quot;responsive&quot;:[{&quot;breakpoint&quot;:1199,&quot;settings&quot;:{&quot;infinite&quot;:false,&quot;slidesToShow&quot;:4,&quot;useTransform&quot;:false}},{&quot;breakpoint&quot;:868,&quot;settings&quot;:{&quot;infinite&quot;:false,&quot;slidesToShow&quot;:3,&quot;useTransform&quot;:false}},{&quot;breakpoint&quot;:481,&quot;settings&quot;:{&quot;infinite&quot;:false,&quot;slidesToShow&quot;:2,&quot;useTransform&quot;:false}}]}">
+            {% for profile in profiles limit: 8 %}
+            {% include card.html content=profile %}
+            {% endfor %}
+            <div class="slick__slide slide slide--7">
+              <div class="slide__content">
+                <div class="panel-display panel-1col clearfix">
+                  <div class="panel-panel panel-col">
+                    <div>
+                      <div class="contractorBoxWrap">
+                        <div class="contractorBox signUp">
+                          <h3 class="contractorBox-signUp">Sign up for FREE to view more great contractors</h3>
+                          <a href="/getting-started" class="btn btn--blue btn-signUp">Get Started</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <nav class="slick__arrow">
+            <button type="button" data-role="none" class="slick-prev" aria-label="previous">Previous</button>
+            <button type="button" data-role="none" class="slick-next" aria-label="next">Next</button>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% else %}
+<h1>New talent with this skillset coming soon!</h1>
+{% endif %}
+<div class="term-listing-heading">
+  <div id="taxonomy-term-74" class="taxonomy-term vocabulary-job-title">
+    <div class="content"></div>
+  </div>
+</div>
+{% include howitworks.html %}

@@ -1,0 +1,206 @@
+/**
+ * @file
+ * Hero banner styles
+ *
+ * Located on the pages: Home page,
+ */
+
+ .heroBanner {
+  background-color: $newblue;
+  padding-top: 90px;
+  padding-bottom: 50px;
+
+  @media #{$large-up} {
+    padding-top: 183px;
+    padding-bottom: 132px;
+  }
+
+  &.dark {
+    background-color: $newblue--darkest;
+
+    @media #{$medium-up} {
+      padding-top: 90px;
+      padding-bottom: 50px;
+
+      .field-name-field-hero-title {
+        padding-bottom: 0;
+      }
+
+      .field-name-field-hero-subtitle2 {
+        margin-bottom: 40px;
+      }
+
+      .field-name-field-hero-subtitle2 {
+
+        h3 {
+          font-size: 2.3rem;
+          line-height: 2;
+        }
+      }
+    }
+
+    @media #{$large-up} {
+
+      .heroBanner-body {
+        padding-left: 60px;
+      }
+
+      .field-name-field-hero-title {
+
+        h2 {
+          font-size: 6rem;
+        }
+      }
+    }
+  }
+
+  &-body {
+    padding-bottom: 40px;
+    max-width: 850px;
+
+    .field-name-field-hero-title {
+      padding-bottom: 20px;
+
+      h2 {
+        color: $white;
+        text-align: left;
+        line-height: 1.25em;
+        font-size: 3rem;
+
+        @media #{$small-up} {
+          font-size: 5rem;
+        }
+
+        @media #{$large-up} {
+          font-size: 7rem;
+        }
+      }
+
+      @media #{$small-up} {
+        padding-bottom: 30px;
+      }
+      @media #{$medium-up} {
+        padding-bottom: 60px;
+      }
+    }
+
+    .field-name-field-hero-subtitle2 {
+      margin-bottom: 68px;
+      h3 {
+        color: $white;
+        line-height: 1.5em;
+        font-family: $fontFamily-serif;
+        font-size: 2.3rem;
+
+        @media #{$small-up} {
+          font-size: 2.8rem;
+        }
+      }
+    }
+
+    .heroBanner--grouped_buttons {
+      div { display: inline-block; }
+      .btn {
+        border-width: 0;
+        display: inline-block;
+        font-size: 2rem;
+        min-width: 300px;
+        margin-bottom: 20px;
+        height: auto;
+        padding: 15px 8px 12px;
+      }
+      text-align: center;
+
+      @media #{$small-up} {
+        text-align: left;
+        > div:first-child .btn {
+          margin-right: 30px;
+        }
+      }
+    }
+  }
+
+  &-image.homepage {
+    .field-name-field-hero-image {
+      margin: 0 auto;
+      position: relative;
+      @media #{$large-up} {
+        right: -150px;
+      }
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      width: 414px;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+
+  &-image:not(.homepage) {
+    text-align: center;
+
+    img {
+      height: auto;
+    }
+  }
+ }
+
+.heroCtaBanner {
+  position: relative;
+  &-image {
+    &:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, .4);
+    }
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  &-body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding-top: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: $fontFamily-thin;
+    font-size: 22px;
+    line-height: 1.2;
+    color: $white;
+    text-align: center;
+    @media #{$small-up} {
+      font-size: 30px;
+    }
+    @media #{$medium-up} {
+      font-size: 36px;
+      padding-top: 70px;
+    }
+    @media #{$large-up} {
+      font-size: 48px;
+    }
+    .field-name-field-cta-hero-title {
+      padding-bottom: 20px;
+      @media #{$small-up} {
+        padding-bottom: 30px;
+      }
+      @media #{$medium-up} {
+        padding-bottom: 50px;
+      }
+    }
+    .field-name-field-cta-hero-button {
+      a {
+        min-width: 200px;
+      }
+    }
+  }
+}
+

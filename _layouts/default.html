@@ -1,0 +1,31 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+{% include head.html %}
+<body class="html{% if page.class %} {{ page.class }}{% endif %} no-sidebars i18n-en panel-layout-onecol panel-region-middle">
+  {% include header.html %}
+  <div id="main-wrapper"{%- if dir == "profile" or dir == "job" or page.url == "/partner-us/" -%} class="container"{%- endif -%}>
+    <div id="main" class="main">
+      <div id="content">
+        <div class="region region-content">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </div>
+  {% include footer.html %}
+</body>
+</html>

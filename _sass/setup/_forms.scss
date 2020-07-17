@@ -1,0 +1,162 @@
+/**
+ * @file
+ * Form elements styles
+ */
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+textarea {
+  -webkit-appearance: none;
+  border-radius: 0;
+  padding: 7px 10px 8px;
+  width: 100%;
+}
+
+textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+/* Buttons */
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.btn {
+  appearance: none;
+  background-color: $newblue--lightest2;
+  border-radius: 0;
+  border: 2px solid $newblue--lightest2;
+  color: $white;
+  display: inline-block;
+  font-family: $fontFamily-semibold;
+  font-size: 14px;
+  line-height: 1;
+  outline: 0;
+  padding: 10px 15px 8px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s ease-out;
+  -webkit-appearance: none;
+
+  @media #{$medium-up} {
+    padding: 14px 15px 12px;
+  }
+
+  &:hover,
+  &:active {
+    cursor: pointer;
+  }
+}
+
+.btn--fullWidth {
+  width: 100%;
+}
+
+.btn--large {
+  font-size: 16px;
+
+  @media #{$medium-up} {
+    font-size: 18px;
+  }
+}
+
+
+.btn--blue {
+  background: $newblue--lightest2;
+  color: $white !important;
+
+  &:hover,
+  &:focus {
+    background: $white;
+    color: $newblue--lightest2 !important;
+  }
+}
+
+.btn--light {
+  background: transparent;
+  border-color: $blue--dark;
+  color: $white  !important;
+
+  &:hover,
+  &:focus {
+    background: $white;
+    border-color: $white;
+    color: $newblue--lightest2 !important;
+  }
+}
+
+.btn--white {
+  background: transparent;
+  border-color: $blue--dark;
+  color: $newblue--lightest2 !important;
+  font-size: 14px;
+
+  &:hover,
+  &:focus {
+    background: $newblue--lightest2;
+    border-color: $newblue--lightest2;
+    color: $white !important;
+  }
+}
+
+.btn--white2 {
+  background: $white;
+  border-color: $blue--dark;
+  color: $newblue--lightest2 !important;
+  font-size: 16px;
+
+  &:hover,
+  &:focus {
+    background: $newblue--lightest2;
+    border-color: $newblue--lightest2;
+    color: $white !important;
+  }
+}
+
+.btn--notification {
+  &::before {
+    content: '\e901';
+    font-family: 'MobiriseIcons';
+    font-size: 25px;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+}
+
+
+.register-form {
+  .form-actions {
+    font-size: 12px;
+  }
+
+  input[value="Get Started"] {
+    display: block;
+    margin-bottom: 5px;
+  }
+}
+
+.chosen-container {
+  border: none;
+  padding: 0;
+
+  .chosen-single {
+    height: 100%;
+  }
+}
+
+.chosen-container-multi .chosen-choices {
+  height: inherit;
+  overflow: auto;
+
+  li.search-field input[type="text"].chosen-search-input {
+    padding: 7px 0;
+  }
+
+  li.search-choice {
+    clear: none;
+  }
+}

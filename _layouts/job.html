@@ -1,0 +1,121 @@
+---
+layout: default
+class: "node-type-job"
+---
+
+<article class="node node-job clearfix" about="/job/contract-designer-remote-us" typeof="sioc:Item foaf:Document">
+  <span property="dc:title" content="Contract Designer - (Remote US)" class="rdf-meta element-hidden"></span>
+  <span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  <div class="content">
+    <div class="content-top">
+      <div class="row">
+        <div class="col-sm-9">
+          <div class="profile-company">
+            <div class="profile-company__logo">
+              <img src="https://app.wpcontractors.com/sites/default/files/wp-icon-6.png">
+            </div>
+            <p class="job-title">{{ page.title }}</p>
+            <div class="profile-location"><i class="fa fa-map-marker"></i>&nbsp;&nbsp; {{ site.data.config.valueMap[page.attendance] }}</div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="job-actions">
+            <div class="button-group">
+              <div class="job-share">
+                <span class="a2a_kit a2a_kit_size_32 a2a_target addtoany_list" id="da2a_1">
+                  {% assign share = site.url | append: page.url | append: '&title=' | append: page.title | url_encode %}
+                  {% assign share = 'https://www.addtoany.com/share#url=' | append: share %}
+                  <a class="a2a_dd addtoany_share_save" href="{{ share }}">
+                    <img src="/assets/img/share.png" alt="Share" />
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="job">
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="job__left">
+            <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+              <div class="field-items">
+                <div class="field-item even" property="content:encoded">
+                  {{ page.description | markdownify }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="job__right">
+            <div class="job-details">
+              <h4 class="job-details__title">Job Details</h4>
+              <div class="job-details__experience">
+                <div class="job-details__label">Seniority Level</div>
+                <div
+                  class="field field-name-field-experience-level field-type-taxonomy-term-reference field-label-hidden">
+                  <div class="field-items">
+                    <div class="field-item even">{{ site.data.config.valueMap[page.experience] }}</div>
+                  </div>
+                </div>
+              </div>
+              <div class="job-details__category">
+                <div class="job-details__label">Industry</div>
+                <div class="field field-name-field-job-category field-type-taxonomy-term-reference field-label-hidden">
+                  <div class="field-items">
+                    {% for category in page.categories %}
+                    <div class="field-item">{{ site.data.config.valueMap[category] }}</div>
+                    {% endfor %}
+                  </div>
+                </div>
+              </div>
+              <div class="job-details__commitment">
+                <div class="job-details__label">Employment Type</div>
+                <div
+                  class="field field-name-field-time-commitment field-type-taxonomy-term-reference field-label-hidden">
+                  <div class="field-items">
+                    <div class="field-item even">{{ site.data.config.valueMap[page.weekly_hours] }}</div>
+                  </div>
+                </div>
+              </div>
+              <div class="job-details__skills">
+                <div class="job-details__label">Skills Required</div>
+                {% for skill in page.skills %}
+                <p class="field-item">{{ site.data.config.valueMap[skill] }}</p>
+                {% endfor %}
+              </div>
+              <div class="field field-name-field-type-of-job field-type-taxonomy-term-reference field-label-above">
+                <div class="field-label">Type of Job:&nbsp;</div>
+                <div class="field-items">
+                  <div class="field-item">{{ site.data.config.valueMap[page.engagement] }}</div>
+                </div>
+              </div>
+              <div class="field field-name-field-start-date field-type-datetime field-label-above">
+                <div class="field-label">Start Date:&nbsp;</div>
+                <div class="field-items">
+                  <div class="field-item even"><span class="date-display-single" property="dc:date"
+                      datatype="xsd:dateTime" content="{{ page.start_date | date: "%FT%T%z" }}">{{ page.start_date | date: "%A, %B %e, %Y" }}</span></div>
+                </div>
+              </div>
+              <div class="field field-name-field-attendance field-type-list-text field-label-above">
+                <div class="field-label">Attendance:&nbsp;</div>
+                <div class="field-items">
+                  <div class="field-item even">{{ site.data.config.valueMap[page.attendance] }}</div>
+                </div>
+              </div>
+              <div class="field field-name-field-status field-type-list-integer field-label-above">
+                <div class="field-label">Status:&nbsp;</div>
+                <div class="field-items">
+                  <div class="field-item even">Open</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>

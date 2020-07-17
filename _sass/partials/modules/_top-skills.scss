@@ -1,0 +1,68 @@
+/**
+ * @file
+ * Top skills section
+ *
+ * Located on the pages: Home page,
+ */
+
+.topSkills {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  @media #{$medium-up} {
+    padding-top: 40px;
+    padding-bottom: 70px;
+  }
+  .view-header {
+    font-family: $fontFamily-regular;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid $grey--light;
+    text-align: center;
+    margin-bottom: 20px;
+    @media #{$medium-up} {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+    p {
+      margin: 0;
+    }
+    i {
+      font-size: 45px;
+      color: $blue--darkest;
+    }
+    h4 {
+      margin: 0;
+      padding: 20px 0;
+    }
+  }
+  .view-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+    a {
+      font-family: $fontFamily-regular;
+      font-size: 16px;
+      color: $grey--darkest;
+      transition: all .3s;
+      &:hover {
+        color: $blue--darkest;
+      }
+    }
+  }
+  .topSkills-row {
+    flex-basis: 100%;
+    padding: 3px 10px;
+    @media #{$xsmall-up} {
+      flex-basis: 50%;
+    }
+    @media #{$small-up} {
+      flex-basis: 33%;
+    }
+    @media #{$medium-up} {
+      flex-basis: 25%;
+    }
+    @media #{$large-up} {
+      flex-basis: 20%;
+    }
+  }
+}

@@ -1,0 +1,110 @@
+/**
+ * @file
+ * Registration and login pages
+ */
+
+.page-getting-started {
+  .main {
+    background: $blue;
+  }
+}
+
+.signUpBlock {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: $grey--darkest;
+  @media #{$small-up} {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  @media #{$medium-up} {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .pane-title {
+    font-family: $fontFamily-bold;
+    font-size: 24px;
+    color: $grey--darkest;
+    margin-bottom: 20px;
+    @media #{$small-up} {
+      font-size: 30px;
+      margin-bottom: 40px;
+    }
+    @media #{$medium-up} {
+      font-size: 40px;
+    }
+  }
+
+  .field-type-paragraphs {
+    > .field-items {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 20px 0;
+      @media #{$small-up} {
+        flex-direction: row;
+        padding: 30px 0;
+      }
+      @media #{$medium-up} {
+        padding: 40px 0;
+      }
+      &:after {
+        content: "";
+        display: none;
+        width: 1px;
+        height: 100%;
+        background: $white;
+        position: absolute;
+        top: 0;
+        right: 50%;
+        @media #{$small-up} {
+          display: block;
+        }
+        @media #{$medium-up} {
+
+        }
+      }
+      > .field-item {
+        flex: 1 0;
+        padding: 20px;
+        @media #{$small-up} {
+          padding: 0 20px;
+        }
+      }
+    }
+  }
+
+  .field-name-field-sign-title {
+    font-family: $fontFamily-thin;
+    font-size: 20px;
+    margin-bottom: 20px;
+    @media #{$small-up} {
+      font-size: 26px;
+    }
+    @media #{$medium-up} {
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+  }
+
+  .field-name-field-sign-icon {
+    margin-bottom: 20px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .field-name-field-sign-description {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+
+  .field-name-field-sign-link {
+    a {
+      min-width: 200px;
+    }
+  }
+}
