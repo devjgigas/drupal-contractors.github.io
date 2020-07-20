@@ -1,5 +1,5 @@
 {
-  "name": "wpcontractors",
+  "name": "Drupalcontractors",
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
@@ -31,5 +31,5 @@
     "url": "git+https://github.com/WPContractors/wpcontractors.github.io.git"
   },
   "author": "",
-  "homepage": "https://www.wpcontractors.com"
+  "homepage": "https://www.drupalcontractors.com"
 }
