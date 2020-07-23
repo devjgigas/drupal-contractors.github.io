@@ -1,7 +1,86 @@
 ---
 layout: default
+profiles:
+  architect:
+    - UKBRBK1R9
+    - UL8N9QSLU
+  art_director:
+    - UKBRBK1R9
+    - UL8N9QSLU
+  backend:
+    - UKBRBK1R9
+    - UL8N9QSLU
+  frontend:
+    - UKBRBK1R9
+    - UL8N9QSLU
+  full_stack:
+    - UKBRBK1R9
+    - UL8N9QSLU
+  pm:
+    - UKBRBK1R9
+    - UL8N9QSLU
+  qa_tester:
+    - UKBRBK1R9
+    - UL8N9QSLU
+  sys_admin:
+    - UKBRBK1R9
+    - UL8N9QSLU
+  ux_designer:
+    - UKBRBK1R9
+    - UL8N9QSLU
+  visual_designer:
+    - UKBRBK1R9
+    - UL8N9QSLU
+  api:
+    - UKBRBK1R9
+    - UL8N9QSLU
+  adobe_creative_suite:
+    - UKBRBK1R9
+    - UL8N9QSLU
+  bootstrap:
+    - UKBRBK1R9
+    - UL8N9QSLU
+  cli:
+    - UKBRBK1R9
+    - UL8N9QSLU
+  communication:
+    - UKBRBK1R9
+    - UL8N9QSLU
+  custom_themes:
+    - UKBRBK1R9
+    - UL8N9QSLU
+  ecommerce:
+    - UKBRBK1R9
+    - UL8N9QSLU
+  gitflow:
+    - UKBRBK1R9
+    - UL8N9QSLU
+  jquery:
+    - UKBRBK1R9
+    - UL8N9QSLU
+  lamp:
+    - UKBRBK1R9
+    - UL8N9QSLU
+  mobile_design:
+    - UKBRBK1R9
+    - UL8N9QSLU
+  mysql:
+    - UKBRBK1R9
+    - UL8N9QSLU
+  sass:
+    - UKBRBK1R9
+    - UL8N9QSLU
+  seo:
+    - UKBRBK1R9
+    - UL8N9QSLU
+  ui:
+    - UKBRBK1R9
+    - UL8N9QSLU
 ---
 
+{% assign dir = page.dir | split: '/'  %}
+{% assign dir = dir[1] %}
+<!-- Loop through the page.profiles and pull in associated profile details-->
 {% if dir == "contractors" %}
 {% assign profiles = site.data.profiles | where: 'titles', page.key %}
 <div class="block block-menu-block contractorsMenu block--none">
@@ -35,8 +114,10 @@ layout: default
       <div class="view-content">
         <div class="slick slick--skin--default slick--optionset--contractors contractorsSlider" id="slick-views-contactors-1">
           <div class="slick__slider" id="slick-views-contactors-1-slider" data-slick="{&quot;mobileFirst&quot;:true,&quot;infinite&quot;:false,&quot;useTransform&quot;:false,&quot;responsive&quot;:[{&quot;breakpoint&quot;:1199,&quot;settings&quot;:{&quot;infinite&quot;:false,&quot;slidesToShow&quot;:4,&quot;useTransform&quot;:false}},{&quot;breakpoint&quot;:868,&quot;settings&quot;:{&quot;infinite&quot;:false,&quot;slidesToShow&quot;:3,&quot;useTransform&quot;:false}},{&quot;breakpoint&quot;:481,&quot;settings&quot;:{&quot;infinite&quot;:false,&quot;slidesToShow&quot;:2,&quot;useTransform&quot;:false}}]}">
-            {% for profile in profiles limit: 8 %}
+            {% for profile in profiles %}
+            {% if page.profiles[page.key] contains profile.id %}
             {% include card.html content=profile %}
+            {% endif %}
             {% endfor %}
             <div class="slick__slide slide slide--7">
               <div class="slide__content">
