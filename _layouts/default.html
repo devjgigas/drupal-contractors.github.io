@@ -15,6 +15,8 @@
   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
 {% include head.html %}
+{% assign dir = page.dir | split: '/'  %}
+{% assign dir = dir[1] %}
 <body class="html{% if page.class %} {{ page.class }}{% endif %} no-sidebars i18n-en panel-layout-onecol panel-region-middle">
   {% include header.html %}
   <div id="main-wrapper"{%- if dir == "profile" or dir == "job" or page.url == "/partner-us/" -%} class="container"{%- endif -%}>
