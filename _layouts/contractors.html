@@ -90,7 +90,7 @@ profiles:
       <ul class="menu nav nav-pills nav-stacked">
         {% for title in site.data.config.titles %}
         <li class="leaf">
-          <a href="/contractors/{{ title.key }}" title="{{ site.data.config.valueMap[title.key] }}">{{ site.data.config.valueMap[title.key] }}</a>
+          <a href="/contractors/{{ title.key }}/" title="{{ site.data.config.valueMap[title.key] }}">{{ site.data.config.valueMap[title.key] }}</a>
         </li>
         {% endfor %}
         <li class="last leaf menu-mlid-3516 menu-link-see-all">
