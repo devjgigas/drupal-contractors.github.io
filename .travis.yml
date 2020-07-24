@@ -2,7 +2,7 @@ language: ruby
 
 dist: trusty
 
-script: npm i && bundle exec jekyll build
+script: npm i && JEKYLL_ENV=production bundle exec jekyll build
 
 # branch whitelist, only for GitHub Pages
 branches:
