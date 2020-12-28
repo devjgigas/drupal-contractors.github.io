@@ -1,16 +1,16 @@
 ---
 slides:
-  - title: "Finding WordPress talent is our talent."
+  - title: "Finding Drupal talent is our talent."
     badge: "Meet the team"
     description: |-
       Our story begins with two software developers who met at their day jobs and discovered they had quite a bit in common.
 
-      Chris McGrath and Albert Volkman founded WP Contractors to address their shared interest. Together with a team of ambitious go-getters, they built one of the world's largest WordPress talent networks
+      Chris McGrath and Albert Volkman founded Drupal Contractors to address their shared interest. Together with a team of ambitious go-getters, they built one of the world's largest Drupal talent networks
     img: /assets/img/our-team/page/ot01.jpg
     img_alt: "Image alt"
-  - title: "We've built a WordPress network for contractors and employers alike"
+  - title: "We've built a Drupal network for contractors and employers alike"
     description: |-
-      WP Contractors exists to solve the very issue AI and Chris noticed while working at a Seattle-based digital agency. Employers in the digital space struggled to hire WordPress talent.
+      Drupal Contractors exists to solve the very issue AI and Chris noticed while working at a Seattle-based digital agency. Employers in the digital space struggled to hire Drupal talent.
 
       There simply weren't enough developers to fill open roles, and anyone good was already busy.
 
@@ -20,7 +20,7 @@ slides:
     description: |-
       Our vision is built upon the idea that relationships matter. People matter. Networks matter.
 
-      We strive to lower your hiring risk by building a vast network of high-quality, pre-screened digital WordPress professionals available for whatever work you current team can't handle.
+      We strive to lower your hiring risk by building a vast network of high-quality, pre-screened digital Drupal professionals available for whatever work you current team can't handle.
     img: /assets/img/our-team/page/ot03.jpg
 team_by_number:
   title: "Our company, by the numbers"
@@ -29,13 +29,13 @@ team_by_number:
   numbers:
     - number: 08
       description: |-
-        years strong in WordPress
+        years strong in Drupal
     - number: 100%
       description: |-
-        developers reviewed by WordPress experts
+        developers reviewed by Drupal experts
     - number: 250+
       description: |-
-        WordPress developers
+        Drupal developers
 joining_our_team:
   title: "Interested in<br> joining our team?"
   btn_text: "Learn more"
