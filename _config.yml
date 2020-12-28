@@ -1,22 +1,22 @@
-title: "WP Contractors"
+title: "Drupal Contractors"
 description: >-
-keywords: staffing, WordPress, wordpress, WP, WordPress freelancers, wordpress freelancers, WordPress contractors, WordPress staffing
-vertical: WordPress
-community: "https://wordpress.org/"
-coding_standards: "https://make.wordpress.org/core/handbook/best-practices/coding-standards/"
-url: "https://wpcontractors.github.io"
+keywords: staffing, Drupal, drupal, Drupal freelancers, drupal freelancers, Drupal contractors, Drupal staffing
+vertical: Drupal
+community: "https://drupal.org/"
+coding_standards: "https://www.drupal.org/docs/develop/standards"
+url: "https://drupal-contractors.github.io"
 email: service@esteemed.io
 slack_signup_link: "https://join.slack.com/t/esteemed/shared_invite/zt-aejwraa8-mFs6ZUEs6voPD5RCV3vwvg"
 bot_link: /
-bio: wp_bio
-experience: wp_experience
+bio: drupal_bio
+experience: drupal_experience
 contractor_profiles_link: /get-a-quote/
-twitter: wp_contractors
-linkedin: wpcontractors
-facebook: wpcontractors
+twitter: drupalcontract
+linkedin: drupal-contractors
+facebook: drupalcontractors
 logo:
-  white: /assets/img/wp-logo-horiz-white.svg
-  black: /assets/img/wp-logo-horizontal-blk.svg
+  white: /assets/img/drupal-logo-horiz-white.svg
+  black: /assets/img/drupal-logo-horizontal-blk.svg
 
 collections:
   skills:
