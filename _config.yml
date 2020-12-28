@@ -1,7 +1,22 @@
-title: "DrupalContractors"
+title: "WP Contractors"
 description: >-
-url: "https://www.drupalcontractors.com"
+keywords: staffing, WordPress, wordpress, WP, WordPress freelancers, wordpress freelancers, WordPress contractors, WordPress staffing
+vertical: WordPress
+community: "https://wordpress.org/"
+coding_standards: "https://make.wordpress.org/core/handbook/best-practices/coding-standards/"
+url: "https://wpcontractors.github.io"
 email: service@esteemed.io
+slack_signup_link: "https://join.slack.com/t/esteemed/shared_invite/zt-aejwraa8-mFs6ZUEs6voPD5RCV3vwvg"
+bot_link: /
+bio: wp_bio
+experience: wp_experience
+contractor_profiles_link: /get-a-quote/
+twitter: wp_contractors
+linkedin: wpcontractors
+facebook: wpcontractors
+logo:
+  white: /assets/img/wp-logo-horiz-white.svg
+  black: /assets/img/wp-logo-horizontal-blk.svg
 
 collections:
   skills:
@@ -9,19 +24,44 @@ collections:
     permalink: /:collection/:name
 
 # Build settings
+remote_theme: "EsteemedIO/esteemed-theme@develop"
 markdown: kramdown
 plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
   - jekyll-get-json
-  - jekyll-datapage-generator
   - jekyll-menus
+  - jekyll-paginate-v2
+  - jekyll-datapage-generator
+  - jekyll-redirect-from
 
 jekyll_get_json:
   - data: profiles
-    json: 'https://khfmg9m8l2.execute-api.us-east-1.amazonaws.com/prod/profiles?channel=CUN3PEEAY'
-  - data: jobs
-    json: 'https://khfmg9m8l2.execute-api.us-east-1.amazonaws.com/prod/jobs'
+    json: '/mock/profiles.json'
   - data: config
-    json: 'https://khfmg9m8l2.execute-api.us-east-1.amazonaws.com/prod/config'
+    json: https://khfmg9m8l2.execute-api.us-east-1.amazonaws.com/prod/config
+
+author_dir: "blog/author"
+author_title_prefix: ""
+pagination:
+  enabled: true
+  per_page: 10
+  permalink: "/:num/"
+  title: ":title - page :num"
+  limit: 0
+  sort_field: "date"
+  sort_reverse: true
+autopages:
+  enabled: true
+  title: ':cat Posts'
+  categories:
+    layouts:
+      - 'categories.html'
+    permalink: "/blog/category/:cat/"
+  collections:
+    enabled: false
+  tags:
+    enabled: false
 
 page_gen-dirs: true
 page_gen:
@@ -29,7 +69,7 @@ page_gen:
     template: "contractor"
     name: "id"
     dir: "profile"
-  - data: "config.titles"
+  - data: "titles"
     template: "contractors"
     name: "key"
     dir: "contractors"
@@ -37,10 +77,11 @@ page_gen:
     template: "contractors"
     name: "key"
     dir: "skills"
-  - data: "jobs"
-    template: "job"
-    name: "key"
-    dir: "job"
+
+collections:
+  categories:
+    title: Categories
+    output: true
 
 defaults:
   -
@@ -48,6 +89,31 @@ defaults:
       path: ""
     values:
       layout: "default"
+      image: /img/meta/main.jpg
+      contact_form: true
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: /blog/:year/:month/:day/:title/
+  -
+    scope:
+      path: ''
+      type: authors
+    values:
+      permalink: "/blog/author/:title/"
+      layout: authors
+      image: /img/profile-pic.png
+      sitemap: false
+  -
+    scope:
+      path: ''
+      type: categories
+    values:
+      permalink: "/blog/category/:title/"
+      layout: categories
+      sitemap: false
 sass:
   load_paths:
     - _sass

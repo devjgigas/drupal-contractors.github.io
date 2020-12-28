@@ -1,0 +1,892 @@
+---
+- id: "25968"
+  name: "Ronal S."
+  image: "/img/ronal-s.jpg"
+  location: "Brooklyn, NY"
+  availability: "hours_10"
+  english: ""
+  titles:
+    - architect
+    - full_stack
+    - pm
+    - qa_tester
+  skills:
+    - api
+    - adobe_creative_suite
+    - bootstrap
+    - cli
+    - custom_themes
+    - ecommerce
+    - gitflow
+    - github
+    - jquery
+    - lamp
+    - mobile_design
+    - mysql
+    - sass
+    - seo
+    - ui
+  citizenship: citizen
+  wp_experience: expert
+  wp_bio: |-
+    Digital native and expert with 10+ years of development and ecommerce experience including Wordpress, Magento 1 &2 migrations, and Drupal 678.
+
+    EXPERIENCE:
+    LG USA
+    NESTLE NESQUIK
+    STOLI VODKA
+    MADISON SQUARE GARDEN
+    KENNETH COLE
+    BOSCH
+    SEIKO
+    TRUMP TOWERS
+    GOLDMAN SACHS
+    DOMINOS PIZZA
+    JOHN VARVATOS
+    AMC CHANNEL
+- id: "25981"
+  name: "Peter C."
+  image: "/img/peter-c.jpg"
+  location: "Maplewood, MO"
+  availability: "open"
+  english: ""
+  titles:
+    - architect
+    - backend
+    - frontend
+    - full_stack
+  languages:
+  skills:
+    - sass
+    - mysql
+  citizenship: citizen
+  wp_experience: expert
+  wp_bio: |-
+    Experienced full-stack web developer and team leader, specialized in responsive web design and open source CMS development. Focused on development of custom web applications, themes, plugins, and advanced integrations. Expert at technology project management, and managing distributed teams.
+- id: "26004"
+  name: "Courtney C."
+  image: "/img/courtney-c.jpg"
+  location: "Sandy Springs, GA"
+  availability: "hours_40"
+  english: ""
+  titles:
+    - architect
+    - art_director
+    - ux_designer
+    - visual_designer
+  languages:
+  skills:
+    - adobe_creative_suite
+    - mobile_design
+    - sass
+  citizenship: citizen
+  wp_experience: expert
+  wp_bio: |-
+    I am a Sr. UI/UX Designer / Front-end Developer with 25 years of extensive experience in web development and design, covering all phases of project development. I have gained an encyclopedia of knowledge that has equipped me for creating complex customized projects in many different market segments.
+- id: "26010"
+  name: "Adam L."
+  image: "/img/adam-l.jpg"
+  location: "Portland, OR"
+  availability: "open"
+  english: ""
+  titles:
+    - architect
+    - backend
+    - frontend
+    - full_stack
+  languages:
+  skills:
+    - jquery
+  citizenship: citizen
+  wp_experience: expert
+  wp_bio: |-
+    JavaScript | React | Redux | WordPress - Developer with experience leading teams, architecture, project management and Agile/SCRUM processes. With 10+ years experience in both front and back-end development. Focused on React/Node and team leadership. Lead developer experience with WordPress and have worked with C#, PHP, Java, Node.
+- id: "26021"
+  name: "Claude G."
+  image: "/img/claude-g.jpg"
+  location: "Levis, QC, Canada"
+  availability: "hours_10"
+  english: ""
+  titles:
+    - architect
+    - frontend
+    - pm
+    - visual_designer
+  languages:
+  skills:
+    - adobe_creative_suite
+  citizenship: not_citizen
+  wp_experience: expert
+  wp_bio: |-
+    Online communications is my thing.
+
+    It starts with a solid concept, usually agreed as being a multi-part plan. Then the visuals and then, the WordPress web site development, per se.
+
+    But that's just the beginning since once the site is up, it needs to live and that's also where I shine with engaging content and solid follow-ups.
+- id: "26050"
+  name: "Syed Z."
+  image: "/img/syed-z.jpg"
+  location: "Anaheim, CA"
+  availability: "hours_40"
+  english: ""
+  titles:
+    - architect
+    - backend
+    - frontend
+    - full_stack
+  languages:
+  skills:
+    - api
+    - ecommerce
+    - github
+    - lamp
+    - mysql
+    - ui
+  citizenship: citizen
+  wp_experience: expert
+  wp_bio: |-
+    Experienced Magento/PHP software Developer with over 15 years of experience in building and maintaining web applications and oversee existing code and server performance. Also I have 5+ years’ of experience in e-Commerce Magento framework and API integration.
+
+    My key skills are API integration, Magento, Laravel, WordPress, Web Services.
+- id: "26076"
+  name: "Paul C."
+  image: "/img/paul-c.jpg"
+  location: "Tokyo, 13, Japan"
+  availability: "open"
+  english: ""
+  titles:
+    - architect
+    - full_stack
+    - pm
+    - ux_designer
+  languages:
+  skills:
+  citizenship: citizen
+  wp_experience: expert
+  wp_bio: |-
+    Hi! I’m Paul from Australia, & I can solve your technical, design, UX, & business problems.
+
+    My 20+ years international experience in solving problems and delivering positive results is broad and deep, with projects diverse as Corporate IT, Web Apps, LMS, eLearning, simulations, educational apps, music, and games.
+- id: "25966"
+  name: "Duane W."
+  image: "/img/duane-w.jpg"
+  location: "Saint Louis, MO"
+  availability: "hours_40"
+  english: ""
+  titles:
+    - art_director
+    - frontend
+    - ux_designer
+    - visual_designer
+  languages:
+  skills:
+    - adobe_creative_suite
+    - ecommerce
+    - github
+    - mobile_design
+    - seo
+  citizenship: citizen
+  wp_experience: expert
+  wp_bio: |-
+    Providing valuable solutions through innovative brand, strategy and marketing consulting. Helping business professionals identify problems, implement solutions, and achieve their marketing goals.
+    I teach business owners the methods required to get the results they want easier and faster.
+- id: "25993"
+  name: "Simon H."
+  image: "/img/simon-h.jpg"
+  location: "Longmont, CO"
+  availability: "hours_40"
+  english: ""
+  titles:
+    - art_director
+    - frontend
+    - ux_designer
+    - visual_designer
+  languages:
+  skills:
+    - adobe_creative_suite
+    - jquery
+    - ui
+  citizenship: citizen
+  wp_experience: expert
+  wp_bio: |-
+    I live, eat and breathe all things developmental, creative and strategic. I have great communication skills and the ability to grasp complexity. Whether it is painting a picture for a client about how their brand can be built and integrated, or designing, coding and building a digital presence, I strive to achieve the perfect experience.
+- id: "26011"
+  name: "Renaldo Q."
+  image: "/img/renaldo-q.png"
+  location: "Asheville, NC"
+  availability: "open"
+  english: ""
+  titles:
+    - art_director
+    - ux_designer
+    - visual_designer
+  languages:
+  skills:
+    - adobe_creative_suite
+  citizenship: citizen
+  wp_experience: expert
+  wp_bio: |-
+    I am advanced level career professional with extensive experience in leadership and technology web design. I maintain a certification in Google IT Support with experience as well in Network Operation and web based services and operations such as SaaS.
+- id: "26029"
+  name: "Rodney L."
+  image: "/img/rodney-l.jpg"
+  location: "Colorado Springs, CO"
+  availability: "hours_20"
+  english: ""
+  titles:
+    - art_director
+    - frontend
+    - ux_designer
+    - visual_designer
+  languages:
+  skills:
+    - mobile_design
+    - jquery
+    - ui
+  citizenship: citizen
+  wp_experience: expert
+  wp_bio: |-
+    Versatile designer with extensive service design, UX & UI background. Creative & web tech enthusiast.
+
+    As a creative who is excited about design thinking & service design, it is my mission to discover and tell the stories about people and events from their perspective of an experience. I endeavor to properly understand and tell those stories.
+- id: "26072"
+  name: "Joe H."
+  image: "/img/joe-h.jpg"
+  location: "Savannah, TX"
+  availability: "open"
+  english: ""
+  titles:
+    - art_director
+    - frontend
+    - ux_designer
+    - visual_designer
+  languages:
+  skills:
+    - adobe_creative_suite
+    - bootstrap
+    - jquery
+    - sass
+  citizenship: citizen
+  wp_experience: expert
+  wp_bio: |-
+    I have over fifteen years of experience as a Front-End Developer has honed my WordPress, CSS3 and HTML5 skills, as well as my knowledge of mobile and responsive design.
+- id: "26087"
+  name: "Drew N."
+  image: "/img/drew-n.jpg"
+  location: "New Albany, OH"
+  availability: "open"
+  english: ""
+  titles:
+    - art_director
+    - frontend
+    - ux_designer
+    - visual_designer
+  languages:
+  skills:
+    - adobe_creative_suite
+    - jquery
+    - mysql
+    - sass
+  citizenship: citizen
+  wp_experience: expert
+  wp_bio: |-
+    Drew Norman is a IT Leader & Wordpress Developer with over 27 years of professional experience that includes creating and driving the process of ux design and plugin development, requirements gathering and analysis, project coordination, quality assurance, and documentation.
+- id: "25944"
+  name: "Ray F."
+  image: "/img/ray-f.jpg"
+  location: "Wake Forest, NC"
+  availability: "open"
+  english: ""
+  titles:
+    - backend
+    - frontend
+    - full_stack
+  languages:
+  skills:
+    - api
+    - custom_themes
+    - jquery
+    - sass
+  citizenship: citizen
+  wp_experience: intermediate
+  wp_bio: |-
+    I enjoy spending my time helping others create their desired results within any WordPress / WooCommerce customizations. From the simplest to the more advanced tasks, I am here to allow you a dedicated resource to your task at hand.
+- id: "25955"
+  name: "Tommy A."
+  image: "/img/tommy-a.jpg"
+  location: "Toronto, ON, Canada"
+  availability: "open"
+  english: ""
+  titles:
+    - backend
+    - frontend
+    - full_stack
+  languages:
+  skills:
+    - mysql
+  citizenship: citizen
+  wp_experience: expert
+  wp_bio: |-
+    I am a professional and experienced developer with extensive knowledge gained in participation in multiple projects while freelancing and working at different companies and at personal projects. I am experienced at delivering interactive material on different platforms. I possess advanced expertise in most frameworks.
+- id: "25956"
+  name: "Rob S."
+  image: "/img/rob-s.jpg"
+  location: "Toronto, ON, Canada"
+  availability: "open"
+  english: ""
+  titles:
+    - backend
+    - frontend
+    - qa_tester
+    - sys_admin
+  languages:
+  skills:
+    - mysql
+    - jquery
+  citizenship: citizen
+  wp_experience: intermediate
+  wp_bio: |-
+    A tech enthusiast with a history of working in both IT support and software development. Experienced in and passionate about helping others make full use of the technology at their disposal. With a background in training, tutoring, and machine translation research.
+- id: "25960"
+  name: "Phil W."
+  image: "/img/phil-w.jpg"
+  location: "Pittsburgh, PA"
+  availability: "hours_40"
+  english: ""
+  titles:
+    - backend
+    - frontend
+    - full_stack
+  languages:
+  skills:
+    - api
+    - github
+    - sass
+  citizenship: citizen
+  wp_experience: expert
+  wp_bio: |-
+    WordPress developer creating custom themes and plugins. Experience with WooCommerce, ACF, Gutenberg, Gravity Forms, GiveWP, and Genesis.
+- id: "25962"
+  name: "Daniel L."
+  image: "/img/daniel-l.jpg"
+  location: "Winnipeg, MB, Canada"
+  availability: "open"
+  english: ""
+  titles:
+    - backend
+    - frontend
+    - full_stack
+  languages:
+  skills:
+    - api
+    - github
+    - jquery
+    - lamp
+    - mobile_design
+    - mysql
+    - sass
+    - seo
+  citizenship: citizen
+  wp_experience: expert
+  wp_bio: |-
+    I'm an experienced web developer with over a decade of web and IT experience. I've worked with clients across North America and have helped them build professional and effective online business solutions.
+- id: "25969"
+  name: "Kevin P."
+  image: "/img/kevin-p.jpg"
+  location: "Greenfield Center, NY"
+  availability: "open"
+  english: ""
+  titles:
+    - backend
+    - frontend
+  languages:
+  skills:
+    - ecommerce
+  citizenship: citizen
+  wp_experience: intermediate
+  wp_bio: |-
+    WordPress Developer with 6 years of functional experience designing and managing business websites using WordPress creation tools. Skilled in front-end and back-end development and implementing themes and plugins. Knowledgeable in writing custom plugins for unique circumstances.
+- id: "25972"
+  name: "Esmond M."
+  image: "/img/esmond-m.jpg"
+  location: "Baton Rouge, LA"
+  availability: "hours_30"
+  english: ""
+  titles:
+    - backend
+    - frontend
+    - full_stack
+  languages:
+  skills:
+    - custom_themes
+  citizenship: citizen
+  wp_experience: intermediate
+  wp_bio: |-
+    I am currently a freelancer that works for different web agencies on a contract basis. I have quite a bit of experience collaborating with both different team members and clients to complete projects. I am currently working in the “LAMP/WordPress” stack but am branching out to learn more JavaScript frameworks like React for example.
+- id: "25951"
+  name: "Gurpreet K."
+  image: "/img/gurpreet-k.jpg"
+  location: "Mississauga, ON, Canada"
+  availability: "open"
+  english: ""
+  titles:
+    - frontend
+    - pm
+  languages:
+  skills:
+    - ecommerce
+    - mysql
+    - seo
+  citizenship: citizen
+  wp_experience: expert
+  wp_bio: |-
+    Proficient and creative Word Press developer with a strong history in website management and development. Expert in all aspects of Word Press website creation, including design, installing plug-ins, and implementation. Skilled in creating engaging and interactive websites. Excel at team projects and leadership.
+- id: "25952"
+  name: "Lynn J."
+  image: "/img/lynn-j.jpg"
+  location: "Kanata, ON, Canada"
+  availability: "hours_20"
+  english: ""
+  titles:
+    - frontend
+    - pm
+  languages:
+  skills:
+    - ecommerce
+    - jquery
+    - mobile_design
+  citizenship: citizen
+  wp_experience: intermediate
+  wp_bio: |-
+    I build WordPress websites for entrepreneurs, small businesses, and self-published authors. I use an active design technique - your first view of your site will be a fully functional site you can play with and evaluate in a hands-on manner. My goal is always to help you achieve technical independence via training and support.
+- id: "25958"
+  name: "Mohamed E."
+  image: "/img/mohamed-e.jpg"
+  location: "Toronto, ON, Canada"
+  availability: "hours_30"
+  english: ""
+  titles:
+    - frontend
+  languages:
+  skills:
+    - adobe_creative_suite
+    - jquery
+  citizenship: not_citizen
+  wp_experience: intermediate
+  wp_bio: |-
+    Experienced Web Developer with a demonstrated history of working in the marketing and advertising industry. Skilled in Wordpress, HTML, CSS, Javascript, and Networking. Strong engineering professional with a Postgraduate focused in Wireless Netwroking from George Brown College.
+- id: "25959"
+  name: "Mariana C."
+  image: "/img/mariana-c.jpg"
+  location: "Vancouver, BC, Canada"
+  availability: "hours_20"
+  english: ""
+  titles:
+    - frontend
+  languages:
+  skills:
+    - sass
+    - jquery
+    - seo
+  citizenship: citizen
+  wp_experience: intermediate
+  wp_bio: |-
+    Front-End developer with about two years of experience especially related to CMS platforms, such as WordPress and Shopify. Holds a Graphic and Web Development diploma, as well as a Postgraduate Degree in Spanish Teaching, and a Bachelor's degree in Arts and Languages.
+- id: "25953"
+  name: "Shumaila A."
+  image: "/img/shumaila-a.jpg"
+  location: "Ottawa, ON, Canada"
+  availability: "hours_40"
+  english: ""
+  titles:
+    - full_stack
+  languages:
+  skills:
+    - sass
+    - jquery
+    - seo
+  citizenship: citizen
+  wp_experience: intermediate
+  wp_bio: |-
+    I am a WordPress developer. I am a certified PHP/Mysql developer. Working as a freelancer and developed various sites in WordPress. I have beginner level experiences in plugin development .Besides, I have troubleshot various issues on sites as well like plugin conflicts. Theme basic edits like CSS.
+- id: "25964"
+  name: "Corey L."
+  image: "/img/corey-l.jpg"
+  location: "Detroit, MI"
+  availability: "open"
+  english: ""
+  titles:
+    - frontend
+    - full_stack
+    - ux_designer
+    - visual_designer
+  languages:
+  skills:
+    - ecommerce
+    - ui
+  citizenship: citizen
+  wp_experience: expert
+  wp_bio: |-
+    Hi,
+
+    I am a developer and social media specialist in Hamtramck, MI. I specialize in managing, creating and modifying WordPress websites as well as implementing highly successful SEO campaigns using various methods including on page, off page, great backlinks, Video SEO and site mapping and social media.
+- id: "26000"
+  name: "Seth M."
+  image: "/img/seth-m.jpg"
+  location: "Charleston, SC"
+  availability: "open"
+  english: ""
+  titles:
+    - frontend
+    - full_stack
+    - pm
+    - ux_designer
+  languages:
+  skills:
+  citizenship: citizen
+  wp_experience: expert
+  wp_bio: |-
+    Over 10 years experience with the Genesis Framework, I specialize in Gutenberg, Gravity Forms, WooCommerce, WordPress theming and general consulting for WordPress websites.
+- id: "26003"
+  name: "Adam C."
+  image: "/img/adam-c.jpg"
+  location: "Fleetwood, PA"
+  availability: "open"
+  english: ""
+  titles:
+    - backend
+    - frontend
+    - pm
+  languages:
+  skills:
+    - adobe_creative_suite
+    - jquery
+    - sass
+  citizenship: citizen
+  wp_experience: intermediate
+  wp_bio: |-
+    Seasoned WordPress / Front-End web developer with a design, project architecture, and management background.
+- id: "26034"
+  name: "Kareem H."
+  image: "/img/kareem-h.jpg"
+  location: "Seattle, WA"
+  availability: "open"
+  english: ""
+  titles:
+    - full_stack
+    - pm
+    - qa_tester
+    - ux_designer
+  languages:
+  skills:
+  citizenship: citizen
+  wp_experience: entry
+  wp_bio: |-
+    I will be obtaining a B.S. in Computer Science within two semesters and I already have hands-on experience working with WordPress for 4 years now. Please refer to me UpWork portfolio.
+
+    I am confident I will be an asset to your organization. I look forward joining the team!
+- id: "25965"
+  name: "Tirth T."
+  image: "/img/tirth-t.jpg"
+  location: "Oshawa, ON, Canada"
+  availability: "hours_20"
+  english: ""
+  titles:
+    - frontend
+    - qa_tester
+    - visual_designer
+  languages:
+  skills:
+    - sass
+  citizenship: citizen
+  wp_experience: intermediate
+  wp_bio: |-
+    Hello,
+
+    I have total of 2.5 years of experience and specialization in WordPress, Html, CSS, Photoshop, Illustrator. I have worked in PSD to HTML, custom Wordpress websites, any Wordpress customizations.
+- id: "25985"
+  name: "Iryna L."
+  image: "/img/iryna-l.png"
+  location: "Chicago, IL"
+  availability: "hours_40"
+  english: ""
+  titles:
+    - frontend
+    - qa_tester
+  languages:
+  skills:
+  citizenship: citizen
+  wp_experience: intermediate
+  wp_bio: |-
+    Motivated and result-driven Software Engineer in Test with 3 years of experience in Quality Assurance Testing. Proven skills in analyzing and reviewing functional, user experience, and technical requirements during the full software development life cycle. Work in an Agile team to collaborate on the analysis, design, development of test plans, case.
+- id: "26025"
+  name: "Pedro C."
+  image: "/img/pedro-c.jpg"
+  location: "Cordova, TN"
+  availability: "hours_40"
+  english: ""
+  titles:
+    - frontend
+    - full_stack
+    - qa_tester
+    - ux_designer
+  languages:
+  skills:
+    - adobe_creative_suite
+    - jquery
+    - mobile_design
+    - sass
+    - seo
+  citizenship: citizen
+  wp_experience: expert
+  wp_bio: |-
+    Hello, I'm Pedro! I'm a Full Stack Web Developer / WordPress Developer from Miami, FL with over 5 years of experience designing, building, and customizing web apps and websites with a wide array of frameworks and languages such as ReactJS, Ruby on Rails, NodeJS, PHP, JavaScript and more!
+- id: "26044"
+  name: "Casey S."
+  image: "/img/casey-s.jpg"
+  location: "Phoenix, AZ"
+  availability: "open"
+  english: ""
+  titles:
+    - backend
+    - qa_tester
+    - sys_admin
+  languages:
+  skills:
+    - ecommerce
+    - github
+    - lamp
+    - mysql
+  citizenship: citizen
+  wp_experience: expert
+  wp_bio: |-
+    I specialize in building and maintaining enterprise WordPress and E-commerce sites using platforms like WooCommerce, ShopifyPlus and others. I've been working with WordPress since 2005 and have since worked on 200+ client sites since then including US foreign trade ambassadors, VC-backed startups, solo-preneurs, and e-commerce brands. I've used Linux/FreeBSD/macOS for over 25 years and am a frequent open-source contributor.
+
+    I am an AWS Certified Cloud Practitioner (ID# LQJS74G13FV41NC5); working on RedHat Certification and AWS Certified Solutions Architect.
+- id: "26007"
+  name: "Adam H."
+  image: "/img/adam-h.jpg"
+  location: "Clinton, UT"
+  availability: "open"
+  english: ""
+  titles:
+    - backend
+    - frontend
+    - full_stack
+    - sys_admin
+  languages:
+  skills:
+    - sass
+  citizenship: citizen
+  wp_experience: expert
+  wp_bio: |-
+    I'm a modern day jack of all trades. I can do any development in the Wordpress platform.
+- id: "26030"
+  name: "Mike Z."
+  image: "/img/mike-z.jpg"
+  location: "Beijing, 11, China"
+  availability: "hours_40"
+  english: ""
+  titles:
+    - backend
+    - frontend
+    - full_stack
+    - sys_admin
+  languages:
+  skills:
+    - lamp
+    - jquery
+  citizenship: citizen
+  wp_experience: expert
+  wp_bio: |-
+    I’m a experienced full-stack developer and system-architect with more than 5 years experience in Designing, Developing, Testing and Optimizing of complex Web, Mobile and Desktop applications.
+
+    *Languages*
+    PHP, Python, JavaScript, HTML/CSS, SQL
+
+    *Frameworks*
+    Wordpress, Magento, Django, React, Angular, Bootstrap
+
+    *Libraries/APIs*
+    jQuery, HTML5 APIs, WebSockets, React.js, Node.js, D3js, Google API
+
+    *Paradigms*
+    Event-driven Programming, Agile, Scrum, Functional Testing, Unit Test
+- id: "26056"
+  name: "Larry W."
+  image: "/img/larry-w.png"
+  location: "San Leandro, CA"
+  availability: "hours_20"
+  english: ""
+  titles:
+    - backend
+    - frontend
+    - sys_admin
+  languages:
+  skills:
+    - github
+    - jquery
+    - mobile_design
+    - mysql
+  citizenship: citizen
+  wp_experience: intermediate
+  wp_bio: |-
+    Created mobile friendly websites. Installed WordPress applications, configure plugins, completed small tasks, and engaged in design work and development. Created mobile friendly websites. Installed WordPress applications, configure plugins, completed small tasks, and engaged in design work and development. Provide holistic approach to clients.
+- id: "26057"
+  name: "Eliezer S."
+  image: "/img/eliezer-s.jpg"
+  location: "San Jose, CA"
+  availability: "hours_30"
+  english: ""
+  titles:
+    - frontend
+    - sys_admin
+  languages:
+  skills:
+    - lamp
+    - jquery
+  citizenship: citizen
+  wp_experience: intermediate
+  wp_bio: |-
+    Passionate to build web apps. Always curious how things works when it comes to web technologies. And I love to learn.
+- id: "26058"
+  name: "Joseph K."
+  image: "/img/joseph-k.jpg"
+  location: "Olympia, WA"
+  availability: "open"
+  english: ""
+  titles:
+    - frontend
+    - pm
+    - qa_tester
+    - sys_admin
+  languages:
+  skills:
+    - adobe_creative_suite
+    - api
+    - gitflow
+    - github
+    - lamp
+    - jquery
+    - mobile_design
+    - mysql
+    - sass
+    - seo
+  citizenship: citizen
+  wp_experience: expert
+  wp_bio: |-
+    Extensive experience in WordPress configuration, administration, custom theming, and custom development.
+- id: "25988"
+  name: "Julie K."
+  image: "/img/julie-k.jpg"
+  location: "Fargo, ND"
+  availability: "hours_10"
+  english: ""
+  titles:
+    - frontend
+    - ux_designer
+  languages:
+  skills:
+    - sass
+  citizenship: citizen
+  wp_experience: expert
+  wp_bio: |-
+    Hey there! I enjoy making badass WordPress websites that work for ALL users. I love to build out custom designs and configure themes and plugins to make websites that are easy to use and get the job done but are also ready for the future and easy to maintain!
+- id: "25989"
+  name: "Dave B."
+  image: "/img/dave-b.jpg"
+  location: "Nashville, TN"
+  availability: "open"
+  english: ""
+  titles:
+    - backend
+    - frontend
+    - full_stack
+    - ux_designer
+  languages:
+  skills:
+    - sass
+  citizenship: citizen
+  wp_experience: expert
+  wp_bio: |-
+    I’m a developer and designer that has worked primarily with WordPress since 2009. I have a passion for well written code, good design, and unique user experiences.
+- id: "25990"
+  name: "Michael S."
+  image: "/img/michael-s.jpg"
+  location: "Chula Vista, CA"
+  availability: "hours_30"
+  english: ""
+  titles:
+    - frontend
+    - ux_designer
+    - visual_designer
+  languages:
+  skills:
+    - mobile_design
+    - seo
+  citizenship: citizen
+  wp_experience: intermediate
+  wp_bio: |-
+    I'm a web designer and developer with a specialty in building responsive websites and SEO set up. I am proficient in HTML5/CSS3, Bootstrap, Wordpress, SEO & Keywords, Directory (Google, Bing, Yelp), and Social Media set up. I have a background in telecommunication and I'm a prior US NAVY radar technician.
+- id: "25995"
+  name: "Brian B."
+  image: "/img/brian-b.jpg"
+  location: "Jacksonville, FL"
+  availability: "open"
+  english: ""
+  titles:
+    - frontend
+    - ux_designer
+  languages:
+  skills:
+    - adobe_creative_suite
+    - bootstrap
+    - ecommerce
+    - mobile_design
+    - jquery
+    - sass
+    - seo
+    - ui
+  citizenship: citizen
+  wp_experience: expert
+  wp_bio: |-
+    WordPress developer specializing in custom theme builds from PSD. I am known for pixel-perfect responsive development, performance optimization, and clean/organized code.
+- id: "25992"
+  name: "Larry G."
+  image: "/img/larry-g.jpg"
+  location: "Alliance, OH"
+  availability: "hours_20"
+  english: ""
+  titles:
+    - frontend
+    - visual_designer
+  languages:
+  skills:
+    - jquery
+  citizenship: citizen
+  wp_experience: expert
+  wp_bio: |-
+    My name is Larry Gordon I have 5 years experience in Web development/designing. I am responsible for full life-cycle development of next-generation websites, from initial requirement gathering to design, coding, testing, documentation and implementation. I am highly capable of testing a variety of internet applications and finding solutions.
+- id: "25997"
+  name: "Logan P."
+  image: "/img/logan-p.jpg"
+  location: "Portland, OR"
+  availability: "hours_10"
+  english: ""
+  titles:
+    - frontend
+    - full_stack
+    - visual_designer
+  languages:
+  skills:
+    - adobe_creative_suite
+    - bootstrap
+    - jquery
+    - lamp
+    - mobile_design
+    - sass
+    - ui
+  citizenship: citizen
+  wp_experience: expert
+  wp_bio: |-
+    My unique experience includes freelancing for small businesses, designing and developing with a vibrant creative team at a medium-size digital marketing agency, and maintaining WordPress platforms at multiple global corporations, focusing on red-carpet, world-class customer service for my clients. Would love to hear what we can accomplish together.

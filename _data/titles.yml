@@ -1,0 +1,40 @@
+- key: architect
+  value: Architects For Hire
+  description: Looking for opportunities in Architecture? WP Contractors is your best source for WordPress-related Architecture jobs.
+  image: /img/meta/architect.jpg
+- key: art_director
+  value: Art Directors For Hire
+  description: Need an Art Director? WP Contractors is your best source for pre-screened WordPress Art Directors.
+  image: /img/meta/art-director.jpg
+- key: backend
+  value: Back-end Developers For Hire
+  description: Need a Backend Developer? WP Contractors is your best source for pre-screened WordPress Back-End Developers.
+  image: /img/meta/backend-developer.jpg
+- key: frontend
+  value: Front-end Developers For Hire
+  description: Looking for Front-End opportunities? WP Contractors is your best source for WordPress-related Front-End development jobs. 
+  image: /img/meta/frontend-developer.jpg
+- key: full_stack
+  value: Full-Stack Developers For Hire
+  description: Need a Full-Stack Developer? WP Contractors is your best source for pre-screened WordPress Full-Stack Developers.
+  image: /img/meta/full-stack-developer.jpg
+- key: pm
+  value: Project Managers For Hire
+  description: Need a Project Manager? WP Contractors is your best source for pre-screened WordPress Project Managers.
+  image: /img/meta/pm.jpg
+- key: qa_tester
+  value: QA Testers For Hire
+  description: Need a QA Tester? WP Contractors is your best source for pre-screened WordPress QA Testers.
+  image: /img/meta/qa-tester.jpg
+- key: sys_admin
+  value: System Administrators For Hire
+  description: Need a Systems Administrator? WP Contractors is your best source for pre-screened WordPress Systems Administrators.
+  image: /img/meta/qa-tester.jpg
+- key: ux_designer
+  value: UX Designer For Hire
+  description: Need a UX Designer? WP Contractors is your best source for pre-screened WordPress UX Designers.
+  image: /img/meta/ux-designer.jpg
+- key: visual_designer
+  value: Visual Designer For Hire
+  description: Need a Visual Designer? WP Contractors is your best source for pre-screened WordPress Visual Designers.
+  image: /img/meta/visual-designer.jpg

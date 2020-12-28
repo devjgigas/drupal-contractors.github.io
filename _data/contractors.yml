@@ -1,0 +1,370 @@
+---
+main:
+    - 25966
+    - 25944
+    - 25952
+    - 25962
+    - 26034
+    - 26025
+    - 26044
+    - 25990
+    - 25997
+    - 25968
+architect:
+  title: "Hire your next star architect to scale your business."
+  image: "/assets/img/contractors/architect.png"
+  profiles:
+    - 25968
+    - 25981
+    - 26004
+    - 26010
+    - 26021
+    - 26050
+    - 26076
+  description_image: "/assets/img/role-based-photos/architect.png"
+  description: |-
+    What is a technical architect? And, on a related note, what is a solutions architect? A technical architect designs the technical road-map of a solution. They research, plan, and diagram the technical parts and pieces of a web application.
+
+    The majority of websites don’t need a technical architect. The ones that do are fairly large and have significant amounts of data. Even then, a technical architect would most likely only be called on for detailed issues, like a migration.
+
+    On the other hand, a solutions architect is a broader title. These professionals take a higher-level look at an application’s solution. It may not be a website at all. Any software application may involve a solutions architect. They create the initial blueprint prior to engaging a technical architect for drill-down functionality requirements. It’s the technical architect’s job to map out the precise approach for the desired result. As you look to hire either role, Solutions or technical architect, we recommend looking for these skills and traits.
+    ## They’re serious nerds
+    An architect has many years of responsibility and experience as a developer. Most have a degree in Computer Science or IT. Some may have certificates in technical or solution architecture. An experienced architect should be comfortable with a variety of code languages. They should also know the software development life-cycle (SDLC).
+    ## They’re problem solvers
+    The future of this world revolves around technology. architects streamline your systems, cut unnecessary functions, and simplify your processes. In an age where innovation is king, skilled architects focus their talents on making things better.
+    ## They’re team players
+    Customers are the greatest asset to any organization. Any business professional can tell you that customer satisfaction means everything. A great architect is both a technical master and a steward of concepts to non-technical key stakeholders.
+    ## What's trending in digital architecture?
+    Architects look to the future to improve how your business succeeds online today. As the world moves to mobile-first, things like AI, machine learning, and 5G disrupt industries daily. Stay ahead of the competition by familiarizing yourself with these emerging trends.
+    ## Edge computing and AI
+    Edge computing innovation will allow businesses to design better and faster solutions on site. And with Artificial Intelligence, the future of many industries will rely on incredible amounts of data processing.
+    ## 5G internet technologies
+    With the rise of the Internet of Things (IoT) and always-connected devices, 5G and lightning fast internet will be critical. As consumers look to business to solve their problems, architects will keep this top-of-mind.
+    ## Mobile-first, mobile engagement
+    As businesses migrate to the cloud, digital teams become more fluid. Mobile engagement has never been more important to business success. Architects will rely on responsive design to seamlessly meet them wherever they are.
+art_director:
+  title: "Hire your next star art director to scale your business."
+  image: "/assets/img/contractors/art_director.png"
+  profiles:
+    - 25966
+    - 25993
+    - 26004
+    - 26029
+    - 26072
+    - 26087
+  description_image: "/assets/img/role-based-photos/art-director.png"
+  description: |-
+    What is an art director and what does an art director do? An art director creates stand-out imagery for your brand. They head your creative projects, manage design teams, and get the internal stakeholders on board with campaigns. An art director is also responsible for guiding audiences through ideas, creating layouts, reviewing and approving designs, and communicating with clients. As you search for a great art director, look for someone with the following traits:
+    ## They can communicate their design knowledge
+    You want someone with creative talent. That’s a given. But, art directors work with many people by trade, so talent alone isn't enough. Make sure they can relay their expertise to others. Communication is important because they’ll be responsible for getting your teams up to speed (and on board) with your creative projects.
+    ## They’re good with people
+    They need to have the right personality and temperament for the job. art directors should have strong people skills. After all, they’ll be training others, assigning tasks, getting client approval, and keeping stakeholders informed every step of the way.
+    ## They’re true to themselves
+    Every art director has forged their own path and has their own definition of what an art director does. Find talent that understands and supports your own ideas, while introducing their own approach. You’ll make the best impression with your clients and customers this way.
+    ## What’s trending in art direction?
+    Art directors are different from designers, so naturally there are different trends to follow. Designers focus on the execution of design, while art directors lead the strategy and accomplish business objectives with their creativity. Here are a few trends to watch.
+    ## Creating design standards
+    Many brands spend hours performing work that could otherwise be avoided if company design standards had been put in place. Even for a small organization, a unique visual language can help designers understand which visuals can (and cannot) be used for communication.
+    ## Managing expectations with remote teams
+    Art directors are largely responsible for helping to delegate tasks to their designers. A solid art Director will understand the role strong communication plays in a remote team, and adapt their strategy accordingly.
+    ## More overlap with UX and Marketing
+    As art directors help to achieve the business goals through visual communication, their input on both the UX and marketing teams is even more important. Art diirectors need to offer their expertise not only to their internal teams, but to other verticals of the business as well.
+backend:
+  title: "Hire your next star backend developer to scale your business."
+  image: "/assets/img/contractors/backend.png"
+  profiles:
+    - 25944
+    - 25955
+    - 25956
+    - 25960
+    - 25962
+    - 25969
+    - 25972
+  description_image: "/assets/img/role-based-photos/back-end-developer.png"
+  description: |-
+    A back-end developer is responsible for scripting data, building, and coding/decoding a website. A WordPress back-end developer primarily works with PHP, one of the most popular languages used to power the web. All the formatting, fonts, headings, and colors of the page you’re currently reading are displaying on the front-end. The coding and decoding processes in the server have extracted this information from a database. Any action performed on the server, at the application layer that interacts with the database, usually MySQL in the case of WordPress is considered back-end development.
+
+    To ensure a secure, well-running database, you need somebody with the right skills. A back-end developer needs to be qualified as an expert in the IT field and have the following skills.
+    ## They know their back-end programming
+    Back-end Developers must understand their discipline and your company’s programming languages and software. Most likely, your website will be encoded in PHP or HTML. These specific languages make up a large portion of your back-end environment.
+    Your back-end developer must have database and cache experience. Your cache stores data so database files can be served efficiently, reducing the system's load. Additionally, back-end developers should know how to work with REST and SOAP APIs—computer interfaces that link multiple servers and software.
+    ## They’re up-to-date with the latest technologies
+    A back-end developer should be curious and love to learn. You want someone who seeks out cutting-edge solutions, as information technology changes every day. Find a developer who stays informed and is comfortable discovering the best way to get things done.
+    ## They build the architecture of the system
+    Seek out back-end developers who know how to analyze and interpret predicted outcomes within IT systems. They’ll be able to tell you where errors might occur. As a result, knowing how to write good code to WP Standards helps avoid potential errors and produces a more maintainable website.
+    ## What's trending in back-end development?
+    The importance of finding talented back-end Developers has never been higher. Their know-how of both the user experience and the server-side of your project is critical. They ensure the speed, security, and success of your apps and websites.
+    ## The rise of AI
+    The rise of AI for learning and enhancing the customer experience is continuing to transform the web. The forecast sees AI-related business hitting $3.9 trillion by 2022.
+    ## API-focused and modular design
+    Streamlining the development process is in everyone’s best interest. That’s why developers are adopting API-first design and reusable content frameworks to speed work.
+    ## The internet of things (IoT)
+    The growth of IoT (smart devices) is projected to hit 31 billion total devices by this year. The future is connected, and the need to develop for this trend is huge.
+frontend:
+  title: "Hire your next star frontend developer to scale your business."
+  image: "/assets/img/contractors/frontend.png"
+  profiles:
+    - 25944
+    - 25951
+    - 25952
+    - 25955
+    - 25956
+    - 25958
+    - 25959
+  description_image: "/assets/img/role-based-photos/front-end-developer.png"
+  description: |-
+    Front-end developers are responsible for what’s known as "the presentation layer" of a website. They deal with the look and feel of all layout, text, icons, images, and color schemes. A wide range of skills are needed to perform as a top Front-end Developer, involving both technical and creative abilities.
+
+    A front-end developer creates web pages with HTML and CSS. Today, CSS is commonly run through a pre-processor known as SASS or LESS. With these languages, successful front-end developers tackle problems related to your website's display.
+
+    Tools and technology in this field change regularly, so a good front-end developer must be up for the challenge. To have an effective, user-friendly web experience, you need somebody talented. As you look to hire a front-end developer, find people with these traits.
+    ## They’ve mastered JavaScript/jQuery
+    Front-end developers must have expert knowledge of JavaScript (JS). JS has become increasingly popular in recent years, dramatically changing the web. Why? With JS, front-end developers can write code that drives the functionality of websites, rather than just the presentation.
+    ## They’re an expert with version control (GIT)
+    Front-end developers that work on enterprise level projects should be comfortable using version control. Today's industry-standard is GIT. GIT makes it possible to record every change to your website’s code. If anything breaks, a good developer can restore a previous version with a couple of commands.
+    ## They can multitask
+    Any good developer must focus on many aspects of a project without losing focus. Because each language is unique, keeping an eye on standards and best practices for each is critical.
+    ## They have great personal skills
+    Along with web mastery, it's equally necessary that front-end developers be able to clearly communicate with their teams. They must share their ideas frequently to gain buy-in from the stakeholders. They must provide frequent examples and in many cases have a reasonable level of persuasion.
+    ## What's trending in front-end development?
+    Front-end developers are critical for your customer’s user experience or UX. Their skills create seamless touchpoints for your website, apps, mobile users, and more. As the internet grows each year, here are trends that stick out for businesses and brands.
+    ## Mobile responsive design and accelerated mobile pages
+    With the wide proliferation of smartphones and mobile-first users, the future is responsive and optimization for fast loading pages is all important. SEO-minded companies have mobile top-of-mind to adjust to the vast migration of users moving to mobile devices.
+    ## Voice search optimization
+    Now that we’re all talking with our smart devices more each day, optimizing the user experience for voice is important. Google reports that 20 percent of mobile searches are now voice searches.
+    ## Motion UI and AI security
+    With the shrinking attention spans of your users, keeping them on your site is more important than ever. Motion UI adapts to web page interaction to better engage your audience. And with cybersecurity on everyone’s mind, AI is being used in new ways to prevent and repel threats to keep your business safe.
+full_stack:
+  title: "Hire your next star full-stack developer to scale your business."
+  image: "/assets/img/contractors/full_stack.png"
+  profiles:
+    - 25944
+    - 25953
+    - 25955
+    - 25960
+    - 25962
+    - 25964
+    - 25968
+  description_image: "/assets/img/role-based-photos/full-stack-developer.png"
+  description: |-
+    Software architecture models possess a client and a server. Client computers send requests to server computers, where servers receive the request and execute operations. A full-stack developer develops both the client and system server networks within the computer system. As more companies, content, and experiences migrate online, more full-stack developers are needed.
+
+    Full-stack developers seem to know a bit about everything. They know how to program databases using SQL or SQ Lite. They know how to program the Front-end and back-end of a website. They know how to build test environments, fix bugs, and integrate security protocols.
+    ## They know Front-end technology
+    A full-stack developer should know languages like HTML, CSS3, and JavaScript. Full-stack developers are quick learners who understand multiple system caches and databases. Caches can help the servers—and the overall browser—reduce pressure on the website.
+    ## They’re proficient in development languages
+    Full-stack developers are well-versed in development languages like Java, Python, and Ruby. In addition to back-end, Front-end, and other language-coding systems, full-stack developers work with servers, clients, and multi-computer systems.
+    ## They have basic design abilities
+    Full-stack developers can create effective models to demonstrate any necessary fixes to browsers or web apps. With their prototypes, they should be able to accurately and efficiently address the concerns and complaints of users.
+    ## They diligently track changes
+    Using a Version Control System (or VCS), full-stack developers track code changes. They should be familiar with GIT, which helps full-stack developers deliver and receive the latest code. They also make changes and use GIT, ensuring the changes they made will not break the existing code.
+    ## What's trending in full-stack development?
+    As tech development explodes across the web, full-stack developers have become crucial. Smarter products and consumers require faster solutions. To keep up with the demand of every facet of your project, developers are turning to AI, machine learning, and more.
+    ## Blockchain and cybersecurity
+    Opportunities continue to grow as brands seek safer ways to do business. Blockchain offers a glimpse into the future of e-commerce and software development.
+    ## AI and advanced chatbot integration
+    The rise of AI for transforming the customer experience continues. Chatbots can now integrate AI to answer your client needs and offer a personal touch.
+    ## Progressive web applications (PWA)
+    Ultra-light web apps that are fast, mobile-first, and interactive are trending like never before. PWAs can not only function as both native mobile apps and web apps they can also run offline.
+pm:
+  title: "Hire your next star project manager to scale your business."
+  image: "/assets/img/contractors/pm.png"
+  profiles:
+    - 25951
+    - 25952
+    - 25968
+    - 26000
+    - 26003
+    - 26021
+    - 26034
+  description_image: "/assets/img/role-based-photos/project-manager.png"
+  description: |-
+    What is project management? In tech, project management is the process of planning, organizing, staffing, and executing a software project. A good project manager wears four hats: overseer, communicator, leader, and facilitator.
+
+    When hiring a project manager, look for a balance of technical and organizational skills. Project managers are responsible for leading their teams to complete projects on-time and on-budget. They must possess leadership skills and business acumen.
+
+    A project’s success is impossible without a project manager. As you scale your business, consider hiring a professional project manager who possesses these skills.
+    ## They’re born leaders
+    When hiring a project manager, find someone who takes responsibility for keeping their teams motivated and on task. A strong team leads to on-time and on-budget project delivery.
+    ## They have technical knowledge
+    Your software projects involve reliance on technical expertise. While your PM doesn’t need to be an expert, you do need somebody with a firm grasp of the technology being used and implemented.
+    ## They’re outstanding communicators
+    No project manager description is complete without this skill. The best project managers must communicate well with all stakeholders. They’re responsible for defining goals, roles, and tasks. It’s important that they share these elements with everyone.
+    ## What's trending in project management?
+    Today’s project managers need to master a handful of technical skills to keep their teams on track. Not only must they juggle advanced online tools, they also need people skills. Here are just a few of the most desirable trends in project management.
+    ## Distributed teams working in the cloud
+    Online collaboration tools have grown exponentially in the last ten years. Some reports anticipate that over 1/3 of all remote teams will be managed via the cloud by next year.
+    ## Agile and hybrid management styles
+    Iterative techniques, more flexible than linear project management, are being adopted. And PM styles that incorporate traditional and agile methods are helping businesses grow faster.
+    ## AI data and analytics
+    Machine learning and deep-dives into data require PMs to be savvy on the future of business. By improving team performance with AI and automation, the industry is making strides.
+qa_tester:
+  title: "Hire your next star QA tester to scale your business."
+  image: "/assets/img/contractors/qa_tester.png"
+  profiles:
+    - 25956
+    - 25965
+    - 25968
+    - 25985
+    - 26025
+    - 26034
+    - 26044
+  description_image: "/assets/img/role-based-photos/qa-tester.png"
+  description: |-
+    QA testers help to eliminate errors across websites, software, or mobile applications. Successful software projects require skilled individuals who can quickly resolve issues.
+
+    QA testers are the stewards of our new era of technology. For example, many businesses rely on apps, like Google Maps. QA testers must ensure that sites or applications are not affected by crashes or malfunctions. Enough bugs, and your users will abandon your product.
+    What makes a good QA tester? We’ve found that a unique skill set is needed to remedy possible issues with your technology. Look for a QA tester with the following traits.
+    ### They’re critical thinkers and quick learners
+    Hiring for a QA tester position? You'll come across many candidates with sound engineering skills. But you’re here because you want the best. Skilled QA testers have a strong technical knowledge and think critically. They have an eye for finding improvements and adapting to new systems.
+    ## They’re flexible with different types of QA testing
+    QA testers combine computer and manual skills to perform system checks and back-end reviews. They should bring experience of QA scripting languages and coding unit tests.
+    ## They collaborate
+    Find a candidate who works well with your employees and cross-functional teams. You want a trustworthy, relationship-oriented, and communicative person on your team. This way, they can understand the full scope of your project and thoroughly review it.
+    ## What's trending in QA testing?
+    Software testing increases the likelihood that your product will succeed in the marketplace. When looking for what makes a good QA tester, consider searching for talent with specialties in the following skills.
+    ## Multi-device testing
+    As more apps, software, and IoT devices trend mobile, multi-device testing is increasingly relevant. Great software seamlessly transitions from smartphones, speakers, and wearables.
+    ## QA testing automation
+    Gone are the days of logging hundreds of hours chasing down the same bug. Teams and modalities such as agile development, continuous testing, and DevOps benefit too, as they no longer need to perform manual, repetitive tasks.
+    ## Progressive web apps
+    Introduced by Google, PWAs allow for an uninterrupted mobile experience. In some cases, users no longer need to download apps, instead accessing web apps from their mobile devices. These apps need to be tested against modern and older browsers, as well.
+sys_admin:
+  title: "Hire your next star system administrator to scale your business."
+  image: "/assets/img/contractors/sys_admin.png"
+  profiles:
+    - 25956
+    - 26007
+    - 26030
+    - 26044
+    - 26056
+    - 26057
+    - 26058
+  description_image: "/assets/img/role-based-photos/sysadmin.png"
+  description: |-
+    System administrators safeguard your operating systems and business applications. They keep tabs on the reliability of one-to-many computer systems and maintain their integrity. As you look to hire a system administrator, look for someone with the following traits.
+    ## They’re patient
+    A skilled system administrator should be patient. Many tasks that come across their desk require time and concentration. What does a system administrator do when users don’t follow instructions closely? If they’re patient, these issues can be handled swiftly and with tact. They should enjoy teamwork and have the ability to communicate clearly. This enables others working in your multi-system computer server organizations to feel comfortable doing so. Remember, people skills are just as important as book smarts for IT department leadership roles!
+    ## They like Sudoku and Tangrams
+    If you want the best system administrators, look for people who genuinely love solving problems. This enthusiasm leads to innovation, which leads to new opportunities for your brand. More importantly, if a server crashes, your whole organization could lose work and time. In an emergency, delays can lead to negative impacts and cut into your revenue. Therefore, it’s critical to have a sysadmin who is quick on their feet when faced with new problems.
+    ## They multitask
+    Great sysadmins multitask and can effortlessly move from one part of your system to another. They also move from one team to another, and can work up and down the business hierarchy. These individuals can handle projects while also considering best practices and the latest discoveries. Find an administrator who’s efficient, analytical, and competent. These skills help them evaluate performance factors of your multi-computer system and find hidden causes of any errors.
+    ## They’re innovators
+    Your sysadmin needs to be up-to-date on trends and best practices. The right person has an idea of what the future of technology holds for your business, and can help steer you in the right direction. For a multi-computer system in a server network environment, it's vital to read and regularly do data mining about the field.
+    ## What’s trending in system administration?
+    If you have a large network or IT environment that needs top-tier security, you should hire a system administrator. Day and night, system administrators work to protect your networks, intercept security breaches, and diagnose issues. And as technology changes, so do their skills. Here are some trending skills to look for in a system administrator.
+    ## Increased automation of tasks
+    Automation assists sysadmins in cultivating larger, complex networks, and it also saves time spent on routine tasks. Automation tools like Puppet, Chef, and Ansible reduce human error, strengthening your network.
+    ## Growing virtualization of networks
+    Networks are becoming increasingly virtual, and therefore more abstract. Your system administrator should be able to switch, route, and understand virtual networks.
+    ## Machine learning applications
+    Looking to find areas of improvement? Machine learning analyzes system data, spotting possible opportunities for creating more accurate, detailed, and powerful networks.
+ux_designer:
+  title: "Hire your next star UX designer to scale your business."
+  image: "/assets/img/contractors/ux_designer.png"
+  profiles:
+    - 25964
+    - 25966
+    - 25988
+    - 25989
+    - 25990
+    - 25993
+    - 25995
+  description_image: "/assets/img/role-based-photos/ux-designer.png"
+  description: |-
+    The average UX designer job description covers a lot of ground. But what does a UX designer do? And what is UX design? UX designers — known as user interface designers or user experience designers — support user behavior by leveraging a deep understanding of both your customers and product.
+
+    They put themselves in the customer’s shoes and build your platform with this in mind. UX design makes products user-friendly and more intuitive for customers. Innovative businesses are always in need of qualified UX designers to support their goals. UX designers require a special skill set, including UX research, the ability to collaborate with team members, and an understanding of wireframing and UI prototyping.
+
+    If you want to attract and retain customers, you need someone talented. As you look to hire a UX designer, find people with these traits.
+    ## They’re skilled researchers
+    Research plays a key role in UX design. Keeping websites and applications up-to-date requires innovation. A good designer stays on top of trends and best practices and knows where to look for inspiration.
+    ## They can communicate visually
+    Visual aids such as banners, icon design, props, and cards keep your audience invested in your project or pitch. UX designers understand a user’s natural instinct to focus more closely on visual media.
+    ## They understand UX writing and development
+    UX development requires knowledge of coding and computer development languages, like HTML, CSS, and JavaScript. Don’t underestimate the value of UX writing! It’s responsible for the interfaces you see in popular websites, apps, and games.
+    ## They’re skilled verbal communicators
+    No matter the organization, UX designers need effective, empathetic communication skills. They are the liaison between your customer’s wants and your company’s needs. UX designers are able to put themselves in a user's shoes and know how to solve their problems. If a UX designer knows how to sell their ideas to your key stakeholders, they can elevate your business strategy.
+    ## What's trending in UX design?
+    Now that we spend our lives online, the success or failure of your digital products, apps, and websites is dependent on their usability. Remember when mobile phone apps used to be monotonous and boring? Those monophonic graphics have exploded into media with sparkling new UX designs. Here are some recent trends in UX design.
+    ## Voice-user interfaces and personal-user interfaces
+    VUIs like Siri and Alexa are growing in popularity due to the innovation of UX engineers. Speech-to-text and voice recognition software will only increase in demand.
+
+    PUIs can track an audience's likes and dislikes, recommending more content they might enjoy (e.g. Netflix). These features can make the user experience feel more personal and more natural.
+    ## Augmented reality and material design
+    With AR, your end product can include animated holograms or interactive 3D displays, bringing together the real and the virtual worlds. On the other hand, material design (used by Android developers) offers an enhanced touchscreen experience with natural motions that mimic real-world interactivity.
+    ## Video content
+    While not new to digital media, video is still more effective than text. Users prefer watching short videos with strong messages. Want to get more attention too? Create UX-designed apps and websites that convey more information in less time.
+visual_designer:
+  title: "Hire your next star visual designer to scale your business."
+  image: "/assets/img/contractors/visual_designer.png"
+  profiles:
+    - 25964
+    - 25965
+    - 25966
+    - 25990
+    - 25992
+    - 25993
+    - 25997
+  description_image: "/assets/img/role-based-photos/visual-designer.png"
+  description: |-
+    What is visual design? It's the use of graphics and other media to shape a brand’s digital and physical image. As you look to hire a visual designer, find people with these skills and traits.
+    ## They have a trained eye
+    Creative professionals are expert problem solvers. visual designers create icons, presentations, and visual branding. They have a knack for graphics, typography, and layout. Digital designers focus on responsive design and complex web design issues, like cross-platform compatibility.
+    ## They’re masterful with their toolset
+    The best visual designers are masters of the Adobe Creative Suite or alternatives like Figma, InVision Studio, or Sketch. They source or produce images, illustrations, and icons, while leveraging industry-specific tools across a variety of disciplines—video, photography, illustration.
+    ## They’re effective communicators
+    There’s a reason it’s called visual communication design. Good visual designers, by trade, blend graphic design and digital technology to communicate ideas.
+    ## What's trending in visual design?
+    Whether you're in SaaS, B2C, or B2B, first impressions are everything. Enlist a top visual designer to wow customers and bring your development project to life. Here are some recent design trends to keep in mind:
+    ## Dark Mode
+    With big players in the mobile space introducing “dark mode,” many developers are creating projects specifically catered to this trend. More apps and websites are sure to follow suit.
+    ## Minimalist Approach, Machine Learning
+    Minimalist, responsive, and quick-loading landing pages are top-of-mind for brands. Designs informed by AI and machine learning can positively impact the customer experience. If you engage the right visual designer with knowledge in these areas, the possibilities are endless.
+    ## Emerging Technologies
+    Designers are harnessing augmented reality (AR) to bring animation and interactivity to a project. Continuous motion graphics can tell a story, take users on a journey, and capture your audience’s attention.
+api:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+adobe_creative_suite:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+bootstrap:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+cli:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+communication:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+custom_themes:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+ecommerce:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+gitflow:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+jquery:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+lamp:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+mobile_design:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+mysql:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+sass:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+seo:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"
+ui:
+  title: "Let's talk about what Creative Cloud can do for your business."
+  image: "/assets/img/contractors/contractor_example.png"

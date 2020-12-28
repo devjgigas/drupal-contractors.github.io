@@ -1,4 +1,0 @@
----
-title: "jQuery"
-filter: "jquery"
----

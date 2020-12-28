@@ -1,0 +1,46 @@
+---
+slides:
+  - title: "Finding WordPress talent is our talent."
+    badge: "Meet the team"
+    description: |-
+      Our story begins with two software developers who met at their day jobs and discovered they had quite a bit in common.
+
+      Chris McGrath and Albert Volkman founded WP Contractors to address their shared interest. Together with a team of ambitious go-getters, they built one of the world's largest WordPress talent networks
+    img: /assets/img/our-team/page/ot01.jpg
+    img_alt: "Image alt"
+  - title: "We've built a WordPress network for contractors and employers alike"
+    description: |-
+      WP Contractors exists to solve the very issue AI and Chris noticed while working at a Seattle-based digital agency. Employers in the digital space struggled to hire WordPress talent.
+
+      There simply weren't enough developers to fill open roles, and anyone good was already busy.
+
+      The solution? A platform where advice support, tools, and people can come together.
+    img: /assets/img/our-team/page/ot02.jpg
+  - title: "We're in it for the people"
+    description: |-
+      Our vision is built upon the idea that relationships matter. People matter. Networks matter.
+
+      We strive to lower your hiring risk by building a vast network of high-quality, pre-screened digital WordPress professionals available for whatever work you current team can't handle.
+    img: /assets/img/our-team/page/ot03.jpg
+team_by_number:
+  title: "Our company, by the numbers"
+  btn_text: "Learn more"
+  btn_link: "/our-history"
+  numbers:
+    - number: 08
+      description: |-
+        years strong in WordPress
+    - number: 100%
+      description: |-
+        developers reviewed by WordPress experts
+    - number: 250+
+      description: |-
+        WordPress developers
+joining_our_team:
+  title: "Interested in<br> joining our team?"
+  btn_text: "Learn more"
+  btn_link: "mailto:jobs@esteemed.io?subject=Opportunities at Esteemed!&body=Dear future Esteemed Colleague,%0D%0A
+  I am writing with interest in exploring opportunities with your team. I have attached a recent copy of my resume for your review. I look forward to further discussion.%0D%0A
+  Thank you!"
+  img: /assets/img/our-team/page/joining-our-team.png
+  img_alt: "Image alt"

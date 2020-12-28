@@ -1,4 +1,0 @@
----
-title: "Bootstrap"
-filter: "bootstrap"
----
