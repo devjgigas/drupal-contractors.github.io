@@ -1,5 +1,5 @@
 ---
-title: Custom Content Types: Drupal vs. WordPress
+title: "Custom Content Types: Drupal vs. WordPress"
 image: "/img/custom-content-types.jpg"
 description: By default, most CMSs offer static and dynamic content as common content types. In WordPress, these are Posts and Pages. In Drupal, they are Pages and Stories.
 thumbnail: "/img/custom-content-types.jpg"
