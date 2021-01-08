@@ -6,11 +6,8 @@ thumbnail: "/img/how-to-transition-roles-as-a-developer.jpg"
 color_overlay: "#009480"
 categories: []
 date: 2020-11-09 08:00:00 +0000
-author: alex-novak
-
+author: radu-camerzan
 ---
-
-by Radu Camerzan
 
 So, you’re a developer. You write code for a living. You might have already been doing this for awhile, and you’re finding that you have more time throughout the day than you had before. Sound familiar?
 
@@ -26,14 +23,14 @@ A management role consists of many things: knowing the inner workings of whateve
 
 This management path requires that you improve skills you may have ignored in the past. If you’re considering making the leap from developer to a management-oriented role, here’s a list of things I had to work on during my transition:
 
-1. Communication: Because you’ll be talking / sending emails / defining tasks a lot, you have to be able to nicely refuse new features and explain why to clients. On the other hand, you might find yourself doing the exact opposite when talking to the team. Communication, no matter the stakeholder, is the most crucial element of transitioning your role.
+**1. Communication**: Because you’ll be talking / sending emails / defining tasks a lot, you have to be able to nicely refuse new features and explain why to clients. On the other hand, you might find yourself doing the exact opposite when talking to the team. Communication, no matter the stakeholder, is the most crucial element of transitioning your role.
 
-2.Empathy: Knowing how your client feels and how your team is doing is crucial in making projects come together. Put yourself in their shoes. After some experience, you’re be that for explaining why a deadline went wrong, aligning expectations with reality, or making sure your team is dedicated to making it to that milestone.
+**2.Empathy**: Knowing how your client feels and how your team is doing is crucial in making projects come together. Put yourself in their shoes. After some experience, you’re be that for explaining why a deadline went wrong, aligning expectations with reality, or making sure your team is dedicated to making it to that milestone.
 
-3. Active Listening: In your meetings, try to get into the conversation. Ask questions: is the client sure that a particular feature is needed in this version? What is it trying to achieve? Can this be achieved in another way? Or, was the bug really squashed? Whenever you actively listen and document the project, your job gets easier and easier.
+**3. Active Listening**: In your meetings, try to get into the conversation. Ask questions: is the client sure that a particular feature is needed in this version? What is it trying to achieve? Can this be achieved in another way? Or, was the bug really squashed? Whenever you actively listen and document the project, your job gets easier and easier.
 
-4. Responsibility: Take ownership of your projects. As a project manager, you are responsible for the whole project, meaning budget, scope and value. You’ll also be owning the project from the CEO’s perspective (usually it means making sure you have the right team for the job, speaking up if you don’t).
+**4. Responsibility**: Take ownership of your projects. As a project manager, you are responsible for the whole project, meaning budget, scope and value. You’ll also be owning the project from the CEO’s perspective (usually it means making sure you have the right team for the job, speaking up if you don’t).
 
-5. Persistence: As with any new task, be prepared to fail systematically. Learn your lesson every time. Try to have someone point out your errors. Remember: your responsibility is much more than a developer’s. You’re protecting all the resources involved–time, money, people–and making the best of them. One word of advice? Compartmentalize your goals, instead of working toward one big onerous task.
+**5. Persistence**: As with any new task, be prepared to fail systematically. Learn your lesson every time. Try to have someone point out your errors. Remember: your responsibility is much more than a developer’s. You’re protecting all the resources involved–time, money, people–and making the best of them. One word of advice? Compartmentalize your goals, instead of working toward one big onerous task.
 
 We live in a world where knowledge and experience is at our fingertips. Tap into this resource! Read articles and search for new information whenever you can. Bookmark a few bloggers, writers, and podcasters. Fill some of your personal time with personal development time. The change is within you, and it’s time to harness that energy.
