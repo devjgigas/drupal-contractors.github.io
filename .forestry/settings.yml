@@ -1,26 +1,25 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
+admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: index.html
-  label: Home
-- type: document
-  path: about.html
-  label: About
-- type: document
-  path: pricing.html
-  label: Pricing
-- type: document
-  path: legal.html
-  label: Legal
-- type: document
-  path: contact.html
-  label: Contact
-upload_dir: img
-public_path: "/img"
+- type: jekyll-posts
+  label: Blog
+  create: documents
+  templates:
+  - posts
+- type: jekyll-pages
+  label: Pages
+  create: all
+- type: directory
+  path: _data
+  label: Data
+  create: documents
+  match: "**/*"
+  new_doc_ext: yml
+upload_dir: uploads
+public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"

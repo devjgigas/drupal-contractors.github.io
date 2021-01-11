@@ -1,0 +1,55 @@
+---
+label: Blog
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: text
+  name: description
+  label: Description
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
+- name: author
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: data
+      file: _data/authors.yml
+      path: 
+  label: Author
+- type: file
+  name: image
+  label: Header Image
+- type: file
+  name: thumbnail
+  label: Thumbnail Image
+- name: color_overlay
+  type: color
+  label: Color Overlay
+  config:
+    required: false
+    color_format: Hex
+- name: categories
+  type: tag_list
+  default: []
+  label: Categories
+pages:
+- _posts/2020-11-23-media-replacement-with-enable-media-replace-by-shortpixel.md
+- _posts/2020-12-10-level-up-your-wordpress-game-with-wp-cli.md
+- _posts/fundraising-and-processing-donations-with-givewp.md
+- _posts/how-to-become-a-wordpress-contractor.md
