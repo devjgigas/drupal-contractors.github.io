@@ -2,13 +2,13 @@
 title: Drupal 8 Temp Store
 image: "/img/drupal-8-temp-store.jpg"
 description: Learn new Drupal techniques from our developers.
-thumbnail: "/img/drupal-8-temp-store.jpg"
+thumbnail: "/uploads/priscilla-du-preez-5gwacxxfpgw-unsplash.jpg"
 color_overlay: "#009480"
 categories: []
-date: 2020-11-02 08:00:00 +0000
+date: 2020-11-02T08:00:00.000+00:00
 author: alex-novak
----
 
+---
 One of the most powerful, flexible, and agile CMS available, Drupal 8 possesses some unique functionalities like Temp store. Let's take a look at Temp store and how to take advantage of its power.
 
 Temp store allows you to temporarily store any data. This data storage exists in `$_SESSION`. Because this storage is tied, as a rule, to a user, it does not use `$_SESSION` and stores everything inside the system or in the database.
@@ -35,7 +35,7 @@ parameters:
 
 Let's look at the capabilities of `tempstore.private` and `tempstore.public`. Although they are similar, they are slightly different.
 
-## Private storage: `tempstore.private`
+### Private storage: `tempstore.private`
 
 This storage is private for each user, and has the following methods:
 
@@ -44,7 +44,7 @@ This storage is private for each user, and has the following methods:
 * `getMetadata($key)`: Returns metadata for a specific $ key, without data. This object contains the owner property, where the value is stored, and who the value belongs to, while the updated property is a unix timestamp for recording this value
 * `delete($key)`: Deletes data associated with the key $ key from the storage.
 
-## Shared storage: `tempstore.shared`
+### Shared storage: `tempstore.shared`
 
 This storage is shared, and may contain data common to all users. The store has the following methods:
 
@@ -57,7 +57,7 @@ This storage is shared, and may contain data common to all users. The store has 
 * `delete($key)`: Deletes data associated with this key `$key` from the storage.
 * `deleteIfOwner($key): Deletes data associated with this `$key` from the repository only if the data belongs to the current user.
 
-## How to Call temp.store
+### How to Call temp.store
 
 First, the tempstore of the desired storage is obtained, then the “collection” is obtained from the storage, where the data is stored under the necessary keys. Typically, the name of a “collection” equals the name of the module.
 

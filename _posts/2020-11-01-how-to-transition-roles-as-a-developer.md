@@ -1,14 +1,14 @@
 ---
 title: How to Transition Roles as a Developer
 image: "/img/how-to-transition-roles-as-a-developer.jpg"
-description: A place where community members can network and help one another
-thumbnail: "/img/how-to-transition-roles-as-a-developer.jpg"
+description: 'Looking to get into project management? '
+thumbnail: "/uploads/standsome-worklifestyle-kema8kzxu-m-unsplash.jpg"
 color_overlay: "#009480"
 categories: []
-date: 2020-11-09 08:00:00 +0000
+date: 2020-11-09T08:00:00.000+00:00
 author: radu-camerzan
----
 
+---
 So, you’re a developer. You write code for a living. You might have already been doing this for awhile, and you’re finding that you have more time throughout the day than you had before. Sound familiar?
 
 If it does, that’s completely normal. As time goes on, you’re bound to get better at what you do. You may leverage a handful of libraries, so it’s faster (and easier) to do new tasks. Instead of taking 3 days to diagnose a problem or push a new feature, it now takes half a day.

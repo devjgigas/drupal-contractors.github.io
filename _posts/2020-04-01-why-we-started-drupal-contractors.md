@@ -1,14 +1,14 @@
 ---
 title: Why We Started Drupal Contractors
-image: "/img/wp-group-photo.jpg"
+image: "/uploads/neonbrand-1-aa2fadydc-unsplash.jpg"
 description: A place where Drupal community members can network and help one another.
-thumbnail: "/img/wp-group-photo.jpg"
+thumbnail: "/uploads/alex-kotliarskyi-ourqhrte2im-unsplash.jpg"
 color_overlay: "#009480"
 categories: []
-date: 2020-11-02 08:00:00 +0000
+date: 2020-11-02T08:00:00.000+00:00
 author: chris-mcgrath
----
 
+---
 I can hardly believe that it has been 5 years since we started Drupalcontractors.com. Over the past year we have labored over re-inventing the site. My other firm Celebrate Drupal has funded the build out of an entirely new site. The site is still in Drupal 7 as it was started last July 2017 and we just were not comfortable with D8 at the time and replacing Profile 2, the module used to control our Profiles.
 
 ## Drupal is a Community

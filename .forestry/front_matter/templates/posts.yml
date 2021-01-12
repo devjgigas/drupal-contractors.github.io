@@ -48,8 +48,3 @@ fields:
   type: tag_list
   default: []
   label: Categories
-pages:
-- _posts/2020-11-23-media-replacement-with-enable-media-replace-by-shortpixel.md
-- _posts/2020-12-10-level-up-your-wordpress-game-with-wp-cli.md
-- _posts/fundraising-and-processing-donations-with-givewp.md
-- _posts/how-to-become-a-wordpress-contractor.md
