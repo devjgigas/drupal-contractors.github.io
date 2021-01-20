@@ -48,3 +48,5 @@ fields:
   type: tag_list
   default: []
   label: Categories
+pages:
+- _posts/using-headless-cms-for-drupal-when-and-why.md
