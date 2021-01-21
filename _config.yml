@@ -77,6 +77,8 @@ page_gen:
     template: "contractors"
     name: "key"
     dir: "skills"
+    title_expr: + "Browse Top-Rated Talent in " + record['value']
+    description: record['description']
 
 collections:
   categories:
