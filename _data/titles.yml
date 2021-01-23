@@ -1,6 +1,6 @@
 - key: architect
   value: Architects For Hire
-  description: Looking for opportunities in Architecture? Drupal Contractors is your best source for Drupal-related Architecture jobs.
+  description: Need an Architect? Drupal Contractors is your best source for pre-screened Drupal Architects.
   image: /img/meta/architect.jpg
 - key: art_director
   value: Art Directors For Hire
@@ -8,15 +8,15 @@
   image: /img/meta/art-director.jpg
 - key: backend
   value: Back-end Developers For Hire
-  description: Need a Backend Developer? Drupal Contractors is your best source for pre-screened Drupal Back-End Developers.
+  description: Need a Backend Developer? Drupal Contractors is your best source for pre-screened Drupal front-end Developers.
   image: /img/meta/backend-developer.jpg
 - key: frontend
   value: Front-end Developers For Hire
-  description: Looking for Front-End opportunities? Drupal Contractors is your best source for Drupal-related Front-End development jobs.
+  description: Need a front-end Developer? Drupal Contractors is your best source for pre-screened Drupal front-end Developers.
   image: /img/meta/frontend-developer.jpg
 - key: full_stack
   value: Full-Stack Developers For Hire
-  description: Need a Full-Stack Developer? Drupal Contractors is your best source for pre-screened Drupal Full-Stack Developers.
+  description: Need a Full-stack Developer? Drupal Contractors is your best source for pre-screened Drupal Full-stack Developers.
   image: /img/meta/full-stack-developer.jpg
 - key: pm
   value: Project Managers For Hire
