@@ -48,231 +48,231 @@ skills:
   - key: analytics
     value: Amazon Web Services
     description: Power your business with top-rated Amazon Web Services Experts. Available on Drupal Contractors.
-  -key: analytics
+  - key: analytics
     value: Analytics
     description: Power your business with top-rated Analytics Experts. Available on Drupal Contractors.
-  -key: angular
+  - key: angular
     value: Angular
     description: Power your business with top-rated Angular Experts. Available on Drupal Contractors.
-  -key: apache
+  - key: apache
     value: Apache
     description: Power your business with top-rated Apache Experts. Available on Drupal Contractors.
-  -key: apache-solr
+  - key: apache-solr
     value: Apache Solr
     description: Power your business with top-rated Apache Solr Experts. Available on Drupal Contractors.
-  -key: api-development
+  - key: api-development
     value: Api-Development
     description: Power your business with top-rated API Development Experts. Available on Drupal Contractors.
-  -key: architecture
+  - key: architecture
     value: Architecture
     description: Power your business with top-rated Architecture Experts. Available on Drupal Contractors.
-  -key: automation-testing
+  - key: automation-testing
     value: Automation Testing
     description: Power your business with top-rated Automation Testing Experts. Available on Drupal Contractors.
-  -key: back-end
+  - key: back-end
     value: Back-End
     description: Power your business with top-rated Back-end Experts. Available on Drupal Contractors.
-  -key: behat
+  - key: behat
     value: Behat
     description: Power your business with top-rated Behat Experts. Available on Drupal Contractors.
-  -key: bootstrap
+  - key: bootstrap
     value: Bootstrap
     description: Power your business with Bootstrap Experts. Available on Drupal Contractors.
-  -key: certified-scrum-master
+  - key: certified-scrum-master
     value: Certified Scrum Master
     description: Power your business with Scrum Master Experts. Available on Drupal Contractors.
-  -key: command-line-interface
+  - key: command-line-interface
     value: Command Lline Interface
     description: Power your business with Commad Line Interface Experts. Available on Drupal Contractors.
-  -key: content-mangement
+  - key: content-mangement
     value: Content  Mangement
     description: Power your business with Content Managment Experts. Available on Drupal Contractors.
-  -key: continuous-integration
+  - key: continuous-integration
     value: Continuous Integration
     description: Power your business with Continous Integartion Experts. Available on Drupal Contractors.
-  -key: css
+  - key: css
     value: CSS
     description: Power your business with CSS Experts. Available on Drupal Contractors.
-  -key: custom-module-development
+  - key: custom-module-development
     value: Custom Module Development
     description: Power your business with Custom Module Development Experts. Available on Drupal Contractors.
-  -key: custom-themes
+  - key: custom-themes
     value: Custom Themes
     description: Power your business with Custom Themes Experts. Available on Drupal Contractors.
-  -key: data-migration
+  - key: data-migration
     value: Data Migration
     description: Power your business with Data Migration Experts. Available on Drupal Contractors.
-  -key: database-system
+  - key: database-system
     value: Database System
     description: Power your business with Database System Experts. Available on Drupal Contractors.
-  -key: development
+  - key: development
     value: Development
     description: Power your business with Development Experts. Available on Drupal Contractors.
-  -key: devops
+  - key: devops
     value: Devops
     description: Power your business with Devops Experts. Available on Drupal Contractors.
-  -key: docker
+  - key: docker
     value: Docker
     description: Power your business with Docker Experts. Available on Drupal Contractors.
-  -key: drupal-6
+  - key: drupal-6
     value: Drupal-6
     description: Power your business with Drupal 6 Experts. Available on Drupal Contractors.
-  -key: drupal-7
+  - key: drupal-7
     value: Drupal-7
     description: Power your business with Drupal 7 Experts. Available on Drupal Contractors.
-  -key: drupal-8
+  - key: drupal-8
     value: Drupal-8
     description: Power your business with Drupal 8 Experts. Available on Drupal Contractors.
-  -key: drupal-api
+  - key: drupal-api
     value: Drupal Api
     description: Power your business with Drupal Api Experts. Available on Drupal Contractors.
-  -key: drupal-commerce
+  - key: drupal-commerce
     value: Drupal Commerce
     description: Power your business with Drupal Commerace Experts. Available on Drupal Contractors.  rupal
-  -key: drupal-version
+  - key: drupal-version
     value: Drupal Version
     description: Power your business with Drupal Version Experts. Available on Drupal Contractors.
-  -key: drush
+  - key: drush
     value: Drush
     description: Power your business with Drush Experts. Available on Drupal Contractors.
-  -key: e-commerce
+  - key: e-commerce
     value: E-commerce
     description: Power your business with E-commerace Experts. Available on Drupal Contractors.
-  -key: front-end
+  - key: front-end
     value: Front-end
     description: Power your business with Front-end Experts. Available on Drupal Contractors.
-  -key: git
+  - key: git
     value: Git
     description: Power your business with GIT Experts. Available on Drupal Contractors.
-  -key: html
+  - key: html
     value: HTML
     description: Power your business with HTML Experts. Available on Drupal Contractors.
-  -key: information-architecture
+  - key: information-architecture
     value: Information Architecture
     description: Power your business with Information Architecture Experts. Available on Drupal Contractors.
-  -key: intranet-solutions
+  - key: intranet-solutions
     value: Intranet Solutions
     description: Power your business with Intranet Solutions Experts. Available on Drupal Contractors.
-  -key: java-script
+  - key: java-script
     value: Javascript
     description: Power your business with Javascript Experts. Available on Drupal Contractors.
-  -key: javascript-jquery
+  - key: javascript-jquery
     value: Javascript j-Query
     description: Power your business with Javascript j-Query Experts. Available on Drupal Contractors.
-  -key: jenkins
+  - key: jenkins
     value: Jenkins
     description: Power your business with Jenkins Experts. Available on Drupal Contractors.
-  -key: jira
+  - key: jira
     value: Jira
     description: Power your business with Jira Experts. Available on Drupal Contractors.
-  -key: joomla
+  - key: joomla
     value: Joomla
     description: Power your business with Joomla Experts. Available on Drupal Contractors.
-  -key: json
+  - key: json
     value: JSON
     description: Power your business with JSON Experts. Available on Drupal Contractors.
-  -key: lamp
+  - key: lamp
     value: Lamp
     description: Power your business with LMAP Experts. Available on Drupal Contractors.
-  -key: less
+  - key: less
     value: Less
     description: Power your business with LESS Experts. Available on Drupal Contractors.
-  -key: magento
+  - key: magento
     value: Magento
     description: Power your business with Magento Experts. Available on Drupal Contractors.
-  -key: manual-testing
+  - key: manual-testing
     value: Manual Testing
     description: Power your business with Manual Testing Experts. Available on Drupal Contractors.
-  -key: marketing-automation
+  - key: marketing-automation
     value: Marketing Automation
     description: Power your business with Marketing Automation Experts. Available on Drupal Contractors.
-  -key: mobile-responsive
+  - key: mobile-responsive
     value: Mobile Responsive
     description: Power your business with Mobile Responsive Experts. Available on Drupal Contractors.
-  -key: ms-sql-server
+  - key: ms-sql-server
     value: MS SQL Server
     description: Power your business with MS SQL Server Experts. Available on Drupal Contractors.
-  -key: multilingual-configuration
+  - key: multilingual-configuration
     value: Multilingual Configuration
     description: Power your business with Multilingual Configuration Experts. Available on Drupal Contractors.
-  -key: mysql
+  - key: mysql
     value: My SQL
     description: Power your business with My SQL Experts. Available on Drupal Contractors.
-  -key: nodejs
+  - key: nodejs
     value: Nodejs
     description: Power your business with Node JS Experts. Available on Drupal Contractors.
-  -key: oracle
+  - key: oracle
     value: Oracle
     description: Power your business with Oracle Experts. Available on Drupal Contractors.
-  -key: php
+  - key: php
     value: PHP
     description: Power your business with PHP Experts. Available on Drupal Contractors.
-  -key: project-management
+  - key: project-management
     value: Project Managment
     description: Power your business with Project Managment Experts. Available on Drupal Contractors.
-  -key: python
+  - key: python
     value: Python
     description: Power your business with Python Experts. Available on Drupal Contractors.
-  -key: quality-assurance
+  - key: quality-assurance
     value: Quality  Assurance
     description: Power your business with Quality Assurance Experts. Available on Drupal Contractors.
-  -key: reactjs
+  - key: reactjs
     value: Reactjs
     description: Power your business with Recat JS Experts. Available on Drupal Contractors.
-  -key: requirements-gathering
+  - key: requirements-gathering
     value: Requirements Gathering
     description: Power your business with Requirement Gathering Experts. Available on Drupal Contractors.
-  -key: rest
+  - key: rest
     value: REST
     description: Power your business with REST Experts. Available on Drupal Contractors.
-  -key: sass
+  - key: sass
     value: SASS
     description: Power your business with SASS Experts. Available on Drupal Contractors.
-  -key: search-engine-optimization
+  - key: search-engine-optimization
     value: Search Engine Optimization
     description: Power your business with Search Engine Optimization Experts. Available on Drupal Contractors.
-  -key: security
+  - key: security
     value: Security
     description: Power your business with Security Experts. Available on Drupal Contractors.
-  -key: seo
+  - key: seo
     value: SEO
     description: Power your business with SEO Experts. Available on Drupal Contractors.
-  -key: shell-scripting
+  - key: shell-scripting
     value: Sell Scripting
     description: Power your business with Sell Scripting Experts. Available on Drupal Contractors.
-  -key: site-building
+  - key: site-building
     value: Site Building
     description: Power your business with Site Building Experts. Available on Drupal Contractors.
-  -key: site-building-d7
+  - key: site-building-d7
     value: Site Building D7
     description: Power your business with Site Building D7 Experts. Available on Drupal Contractors.
-  -key: site-building-d8
+  - key: site-building-d8
     value: Site  Building D8
     description: Power your business with Site Building 8 Experts. Available on Drupal Contractors.
-  -key: solr
+  - key: solr
     value: Solr
     description: Power your business with Solr Experts. Available on Drupal Contractors.
-  -key: symfony
+  - key: symfony
     value: Symfony
     description: Power your business with Symfony Experts. Available on Drupal Contractors.
-  -key: twig
+  - key: twig
     value: Twig
     description: Power your business with twig Experts. Available on Drupal Contractors.
-  -key: ubercart
+  - key: ubercart
     value: Ubercart
     description: Power your business with Ubercart Experts. Available on Drupal Contractors.
-  -key: waterfall-development
+  - key: waterfall-development
     value: Waterfall Development
     description: Power your business with Waterfall Development Experts. Available on Drupal Contractors.
-  -key: wcag-validation
+  - key: wcag-validation
     value: WCAG Aalidation
     description: Power your business with WCAG Aalidation Experts. Available on Drupal Contractors.
-  -key: website-performance-optimization
+  - key: website-performance-optimization
     value: Website Performance Optimization
     description: Power your business with Webiste Performance Optimization Experts. Available on Drupal Contractors.
-  -key: word-press
+  - key: word-press
     value: WordPress
     description: Power your business with WordPress Experts. Available on Drupal Contractors.
-  -key: xml
+  - key: xml
     value: XML
     description: Power your business with XML Experts. Available on Drupal Contractors.
