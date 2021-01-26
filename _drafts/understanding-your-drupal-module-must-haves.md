@@ -90,7 +90,7 @@ Though this offers a lot of power to content editors, it can also result in an i
 
 ### [Paragraphs](https://www.drupal.org/project/paragraphs){:target="_blank"}
 
-Not to be confused with blocks of text, Paragraphs is a tool for building your own modular components, which are reusable collections of fields. This module works similarly to D7's [Field Collection](https://www.drupal.org/project/field_collection) module. 
+Not to be confused with blocks of text, Paragraphs is a tool for building your own modular components, which are reusable collections of fields. This module works similarly to D7's [Field Collection](https://www.drupal.org/project/field_collection){:target="_blank"} module.
 
 Users can add multiple fields to a Paragraph type, as well as add unlimited instances of a Paragraph to any content that has a reference field of that Paragraph type. The Paragraphs module has another major advantage over the Field Collection module. When you add a Field Collection field to a content type, its definition is a single group of field types (e.g.: a text field or two, a date field, an image field, etc). With the Paragraph field, you can allow the user to select from one or more Paragraph types, each having its own group of fields, and each can have unique styling applied. It's pretty flexible! 
 
@@ -102,47 +102,59 @@ However, theming can be a bit of a challenge, especially if you’re using compo
 * Allows users to easily drop in a new style into content to which the Paragraph type has been assigned
 * Users can mix and match Paragraph types within the same layout, allowing for a more flexible content management experience.
 
-“Search Engine Optimization - for the brave at heart only!” Just kidding. Well, maybe not so much. There really is no module that will completely optimize your site for you or make your site number one in search engines, but there are a few that can help make it better.
+### Search Engine Optimization
 
-## Pathauto
+Unfortunately, there is no single module that will completely optimize your site, or lead you in the search engines, but there are a few that can help make it better.
 
-_Download link:_ [_https://www.drupal.org/project/pathauto_](https://www.drupal.org/project/pathauto "https://www.drupal.org/project/pathauto")
+#### [Pathauto](https://www.drupal.org/project/pathauto){:target="_blank"}
 
-Everyone loves a pretty path—especially Google and other search engines. Easy to read paths are easier to understand and remember, so this makes sense. Out of the box, Drupal creates paths for content that look like _your_site/node/123_, which is rather meaningless to viewers (and search engines) and difficult to remember. Pathauto allows site admins to define URL patterns using Tokens. For example, a simple path pattern using the Token _\[node:title\]_ takes the title and converts it to a clean variation of the content title; if the title is “My Birthday Wishlist”, this module will cause the path to be displayed as _your_site/my-birthday-wishlist._ This clean URL makes sense to both visitors and search engines. For a slightly more complex example, use multiple tokens separated by the / character: _\[node:content-type\]/\[node:title\]_ will display an Article called “Hello World” at the path _your_site/article/hello-world_ and a Board Member called “Jane Smith” at _your_site/board-member/jane-smith_. By combining different Tokens and configuration settings, you can generate much better organic search results for your content.
+Everyone loves a pretty path—especially Google and other search engines! Easy-to-read paths are easier to understand and remember. 
 
-### Benefits of Pathauto
+Out of the box, Drupal creates paths for content that look like _your_site/node/123_, which is rather meaningless to viewers and search engines. 
+
+Pathauto allows site admins to define URL patterns using Tokens. For example, a simple path pattern using the Token _\[node:title\]_ takes the title and converts it to a clean variation of the content title; if the title is “My Birthday Wishlist”, this module will cause the path to be displayed as _your_site/my-birthday-wishlist._ This clean URL makes sense to both visitors and search engines. 
+
+For a slightly more complex example, use multiple tokens separated by the / character: _\[node:content-type\]/\[node:title\]_ will display an Article called “Hello World” at the path _your_site/article/hello-world_ and a Board Member called “Jane Smith” at _your_site/board-member/jane-smith_. 
+
+By combining different Tokens and configuration settings, you can generate much better organic search results for your content.
+
+#### Benefits of Pathauto
 
 * Makes an ugly URL look prettier, to both the visitor and to search engines
 * Allows you to customize url using tokens
 * Automates the process of assigning these pretty (called “clean”) urls.
 
-## Metatag
+#### [Metatag](https://www.drupal.org/project/metatag){:target="_blank"}
 
-_Download link:_ [_https://www.drupal.org/project/metatag_](https://www.drupal.org/project/metatag "https://www.drupal.org/project/metatag")
+Meta-tags are hidden snippets of text that describe a page’s content to search engines. The Metatag module allows you to set up tokens to automatically pull information from your content, such as content title, page url, and other field data and automatically turn them into meta-tags. 
 
-Meta tags are hidden snippets of text that describe a page’s content that describe web pages to engines. The Metatag module allows you to set up tokens to automatically pull information from your content, such as content title, page url, and other field data and automatically turn them into metatags. This helps improve your site’s SEO rankings when Google looks for meta tag information and sees that it matches visible content. For some advanced configuration tips, checkout Trevor Kjorlien’s article here: [https://evolvingweb.ca/blog/perfect-your-facebook-link-previews-drupal-metatag-module](https://evolvingweb.ca/blog/perfect-your-facebook-link-previews-drupal-metatag-module "https://evolvingweb.ca/blog/perfect-your-facebook-link-previews-drupal-metatag-module")
+This helps improve your site’s SEO rankings when Google looks for meta-tag information and sees that it matches visible content. For some advanced configuration tips, check out [Trevor Kjorlien’s article](https://evolvingweb.ca/blog/perfect-your-facebook-link-previews-drupal-metatag-module){:target="_blank"}. 
 
-### Benefits of Metatag
+#### Benefits of Metatag
 
-* Automates the creation of metatags
-* Improves SEO Automatically
+* Automates the creation of meta-tags
+* Improves SEO automatically
 * Sounds like a cool, Sci-Fi, deadly mutant full contact sport
 
-### Google Analytics
+#### [Google Analytics](https://www.drupal.org/project/google_analytics){:target="_blank"}
 
-_Download Link:_ [_https://www.drupal.org/project/google_analytics_](https://www.drupal.org/project/google_analytics "https://www.drupal.org/project/google_analytics")
+Google Analytics provides you with the information you need to make good marketing and optimization decisions. 
 
-Google Analytics provides you with the information you need to make good marketing and optimization decisions. This is the module that sends the information Google needs to help you make those decisions. Once Google has all of the needed information, you can see site usage statistics in well presented visualizations that will give you insight into user behavior and usage of your site. Setup can be a bit tricky, but luckily, OS Training has provided a free video to get you up and running in a snap. Watch it here: [youtube.com/watch?v=2wFXo-vnhWs](https://youtube.com/watch?v=2wFXo-vnhWs)
+Once Google has all of the needed information, you can see site usage statistics in visualizations that will give you insight into user behavior, and site usage. Setup can be a bit tricky, but luckily, OS Training has provided a [free v](https://youtube.com/watch?v=2wFXo-vnhWs)[ideo to get you up and running in a snap](). 
 
-### Google Tag Manager
+#### [Google Tag Manager](https://www.drupal.org/project/google_tag){:target="_blank"}
 
-_Download Link:_ [_https://www.drupal.org/project/google_tag_](https://www.drupal.org/project/google_tag "https://www.drupal.org/project/google_tag")
+While Google Analytics is great, it doesn’t give you the pinpoint accuracy you might be looking for. For example, do you want to know when visitors click your call-to-action buttons? 
 
-While Google Analytics is great, it doesn’t give you pinpoint detail you may be looking for. For example, do you want to know when visitors click your call-to-action buttons? Well, the Google Tag Manager gives you an interface to set up “tags” that represent events such as what specific site clicks to track. This module lets you do this without all without the need of a developer or even visiting the Google Analytics manager. It’s a great tool for the “marketing geek” in your organization.
+The Google Tag Manager gives you an interface to set up “tags” that represent events such as what specific site-clicks to track. This module lets you do this without all without the need of a developer or even visiting the Google Analytics manager. 
 
-### Benefits of Google Analytics and Tag Manager
+It's a great tool for the marketing geek in your organization. 
+
+#### Benefits of Google Analytics and Tag Manager
 
 * Helps you gather site analytics data automatically
 * Provide great interfaces for managing your data collection process
 
-There are many other SEO tools and techniques which you can implement, but this should get you started in the right direction.
+There are many other SEO tools and techniques which you can implement, but these tools should get you started in the right direction.
+
+### Customer Interaction Tools
