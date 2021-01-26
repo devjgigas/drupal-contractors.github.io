@@ -1,6 +1,6 @@
 ---
 date: 2021-01-20 17:08:14 +0000
-author: matt-pritchard
+author: liam-hockley
 categories: []
 title: 'Using Headless CMS for Drupal: When and Why? '
 description: When you use a headless CMS, you open up a whole new world of possibility,
