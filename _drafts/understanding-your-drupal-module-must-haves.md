@@ -158,3 +158,85 @@ It's a great tool for the marketing geek in your organization.
 There are many other SEO tools and techniques which you can implement, but these tools should get you started in the right direction.
 
 ### Customer Interaction Tools
+
+#### [Webform](https://www.drupal.org/project/webform)
+
+Webform is the most commonly used module for making forms and surveys in Drupal. It provides an easy interface to create single or multi-page forms, add fields, and manage submissions. This is one of the most important modules for providing interaction with your visitors. You can create “Contact Us” forms, surveys, quotation request forms, and more. 
+
+Providing users with opportunities to give you more information is one of the best ways to build and strengthen relationships, gather actionable data, and show your site visitors that you are interested in their questions and concerns, thus building a reputation of caring. 
+
+Several other modules are available to extend the capabilities of the Webform module. 
+
+* Webform Views: integrates Webform 8.x-5.x and Views modules
+* Webform Analysis: used to obtain statistics on the results of form submissions
+* Webform Rest: retrieve and submit webforms via REST.
+* Webform Encrypt: provides encryption for webform elements.
+* Webform Composite Tools
+
+#### Benefits of Webform
+
+* Provides an easy-to-use interface for creating user forms
+* Provides a reporting system 
+* See collected user data
+
+### Administrative Tools
+
+#### [Admin Toolbar](https://www.drupal.org/project/admin_toolbar)
+
+If you’re administering a website, you want to get the job done fast. Nothing slows you down like having to click a page, wait for it to load so you can see links to related pages, then have to click one of those to see another list of child pages before you can get to the page you need. 
+
+The answer? Dropdown menus listing all of those child pages in a nested fashion so you can directly navigate to your desired page. The Admin toolbar makes this possible, automatically converting menu items into drop-down items when hovering over them, showing you the child pages. 
+
+### Benefits of Admin Toolbar
+
+* Converts admin menus to dropdowns
+* Makes your admin menu system easier to work with 
+
+#### [Devel]()
+
+_Download link:_ 
+
+This module has been my go-to for troubleshooting Drupal and testing new code. In the older version, I would rely on the included module, Devel PHP, to quickly test code before implementing it. However, it has been removed for some reason from the Drupal 8 version of this module, so you can add it separately by installing Devel PHP. The Devel module also provides a module called _Web Profiler_ which can help you troubleshoot performance issues. It provides a customizable toolbar at the bottom of the window of your website with a wealth of information you can use to troubleshoot and optimize your site. To learn more about using the Web Profiler module, watch the great video by WebWash here: [https://www.youtube.com/watch?v=pHf128w-1QQ&feature=emb_title](https://www.youtube.com/watch?v=pHf128w-1QQ&feature=emb_title "https://www.youtube.com/watch?v=pHf128w-1QQ&feature=emb_title")
+
+### Benefits of Devel
+
+* Makes your development experience so much better. Need we say more?
+
+# Devel PHP
+
+_Download link:_ [_https://www.drupal.org/project/devel_php_](https://www.drupal.org/project/devel_php "https://www.drupal.org/project/devel_php")
+
+As mentioned above, the ability to run PHP commands from a development page in Drupal has been removed from the Devel module. This module adds it back in. Install the module, navigate to _your-site/devel/php_, and you have a window where you can drop in any PHP code. It’s a great tool I turn to often. Just make sure that you use the Devel modules in development environments only, and never enable them on a production website due to security concerns.
+
+### Benefits of Devel PHP
+
+* Brings the Execute PHP page back to Devel in Drupal 8
+
+# Backup/Migrate
+
+_Download Link:_ [_https://www.drupal.org/project/backup_migrate_](https://www.drupal.org/project/backup_migrate "https://www.drupal.org/project/backup_migrate")
+
+This module is a fantastic tool for creating database backups of your website and migrating that data to another site. It provides you with an easy to use interface with options to create backups, manage and download those backups, and of course, upload and restore your backups. This makes it easy to migrate your database to another server or even your local development machine by downloading your backup, navigating to the Backup/Migrate screen on your target installation and importing that backup file. If you don’t want to run all of these activities from the command line like a true geek, this is definitely a must have tool for you.
+
+### Benefits of Backup/Migrate
+
+* Makes managing backups and restoring them a breeze
+* No need for a MySQL client or working from the command line
+
+# Entity Embed Module
+
+_Download Link:_ [_https://www.drupal.org/project/entity_embed_](https://www.drupal.org/project/entity_embed "https://www.drupal.org/project/entity_embed")
+
+Ever want to have a node teaser show up on another node? Well, the old fashioned approach was to add a node_embed field, which essentially added a field that needed to be themed and positioned in a fairly rigid manner. And what if you wanted to include an image? Now you needed an image field. Every time you wanted to display another piece of content, you had to request yet another field. Why couldn’t you just drop in content on demand? With the Entity Embed module, you can create custom embed types, such as one for nodes. A button is created for each type which you can add to the CKEditor bar and even customize the icon for the button. Then, when editing full text fields in your content, you just click a button to insert one of your custom embed types into the text. If it’s a node, you can have the full node or any one of the node displays. You can embed just about any kind of content into your text field using this module. For a good in depth guide on working with this module, see the article, [https://www.lullabot.com/articles/how-to-embed-just-about-anything-in-drupal-8-entity-embed-url-embed](https://www.lullabot.com/articles/how-to-embed-just-about-anything-in-drupal-8-entity-embed-url-embed "https://www.lullabot.com/articles/how-to-embed-just-about-anything-in-drupal-8-entity-embed-url-embed"), which explains its use and related modules as well.
+
+### Benefits of Entity Embed
+
+* Gives you the power to embed all kinds of content into your full text fields
+* Gives you the power to create buttons to embed your content
+* Allows you to assign cute little icons to the different types of embedding buttons you’ve created
+
+So, there you have it! Drupal has thousands of community-contributed modules. Drupal's APIs allow you to extend your site with custom code in practically infinite ways! 
+
+The modules mentioned in this collection are a great place to start, but if you are looking for something more specific, hop on over to the Drupal [contributed module search page](https://www.drupal.org/project/project_module). You’ll be sure to find a lot of interesting modules. Don’t be afraid to experiment. 
+
+Of course, it’s always best to experiment on a local testing environment. If you don’t have one of those setup, you should checkout the [Bitnami Drupal stack](https://bitnami.com/stack/drupal/installer) for an instant Drupal development site. Just run the installer and you’ll have a site ready to develop on. You can find installers for Windows, Mac and Linux. 
