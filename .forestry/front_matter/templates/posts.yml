@@ -49,4 +49,5 @@ fields:
   default: []
   label: Categories
 pages:
+- _posts/understanding-your-drupal-module-must-haves.md
 - _posts/using-headless-cms-for-drupal-when-and-why.md
