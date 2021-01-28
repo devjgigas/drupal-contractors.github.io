@@ -1,6 +1,6 @@
 ---
-date: 2021-01-26 15:59:21 +0000
-author: matt-pritchard
+date: 2021-01-26T15:59:21.000+00:00
+author: jamie-valentin
 categories: []
 title: 'Understanding Your Drupal Module Must-Haves '
 description: ''
